@@ -33,12 +33,21 @@ class LinkedList():
         self.head = head
 
     def insert(self, data):
+        """
+        Insertion happens at O(1) constant time.
+        The insertion method will always insert a single node, that only ever interacts
+        with the head node.
+        """
         new_node = Node(node_value=data)
         new_node.set_next(self.head)   # self.next = self.head
         self.head = new_node
         print(f'Head data value is now: {self.head.node_value}')
 
     def size(self):
+        """The time complexity is O(n):
+        The method will visit the every node in the list but only interact
+        with them once, so n * 1 operations.
+        """
         current = self.head
         count = 0
         while current:
@@ -47,6 +56,11 @@ class LinkedList():
         return count
 
     def search(self, value):
+        """
+        Time complexity for search: O(n) worst case.
+        Worst case, it visits all the nodes while searching for the value, down to the
+        last node (nth node).
+        """
         current = self.head
         found = False
         while current and found is False:
