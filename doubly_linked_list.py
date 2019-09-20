@@ -3,8 +3,35 @@ class DoubleLinkedList:
         self.head = None
         self.tail = None
 
+    def set_head(self, node):
+        """
+        Set the head of the linked list.
+        Complexity:
+            O(1) time | O(1) space
+        """
+        if self.head is None:
+            self.head = node
+            self.tail = node
+            return
+        self.insertBefore(self.head, node)
+
+    def set_tail(self, node):
+        """
+        Set the tail of the linked list.
+        Complexity:
+            O(1) time | O(1) space
+        """
+        if self.tail is None:
+            self.set_head(node)
+            return
+        self.insert_after(self.tail, node)
+
     def insert_before(self, node, node_to_insert):
-        """Insert a node before the specified node."""
+        """
+        Insert a node before the specified node.
+        Complexity:
+            O(1) time | O(1) space
+        """
         if node_to_insert == self.head and node_to_insert == node.tail:
             # node already exists
             return
@@ -19,7 +46,11 @@ class DoubleLinkedList:
         node.prev = node_to_insert
 
     def insert_after(self, node, node_to_insert):
-        """Works in a similar fashion to insert before but backwards."""
+        """
+        Works in a similar fashion to insert before but backwards.
+        Complexity:
+            O(1) time | O(1) space
+        """
         if node_to_insert == self.head and node_to_insert == node.tail:
             return
         self.remove(node_to_insert)
@@ -32,8 +63,34 @@ class DoubleLinkedList:
             node.prev.next = node_to_insert
         node.next = node_to_insert
 
+    def insert_at_position(self, position, node_to_insert):
+        """
+        Insert a node at a position
+        Complexity:
+            O(p) time  - since we are iterating up until position p
+            O(1) space - constant time setting of pointers
+        """
+        if position == 1:
+            self.set_head(node_to_insert)
+            return
+        node = self.head
+        current_position = 1
+        while node is not None and current_position != position:
+            node = node.next
+            current_position += 1
+        if node is not None:
+            self.insertBefore(node, node_to_insert)
+        else:
+            # node is None so we are at the tail
+            self.set_tail(node_to_insert)
+
     def remome_node_with_value(self, value):
-        """Remove a node that contains this value."""
+        """
+        Remove a node that contains this value.
+        Complexity:
+            O(n) time  where n is the size of the linked list
+            O(1) space
+        """
         node = self.head
         while node is not None:
             # temporary save the current node, to not lose it while we check if it needs
@@ -45,9 +102,14 @@ class DoubleLinkedList:
             node = node.next
 
     def remove(self, node):
-        if (node == self.head):
+        """
+        Remove a node from the list
+        Complexity:
+            O(1) time | O(1) space
+        """
+        if node == self.head:
             self.head = self.head.next
-        if (node == self.tail):
+        if node == self.tail:
             self.tail = self.tail.prev
 
         self.update_node_bindings(node)
@@ -55,12 +117,13 @@ class DoubleLinkedList:
     def contains_node_with_value(self, value):
         """
         Return True if the linked list contains a node with the passed in value.
+        Complexity:
+            O(n) time | O(1) space
         """
         node = self.head
         while node is not None and node.value != value:
             node = node.next
         return node is not None
-
 
     def update_node_bindings(self, node):
         """
