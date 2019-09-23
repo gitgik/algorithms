@@ -25,6 +25,12 @@ def efficient_fibonacci(n):
         O(n) time,
         O(1) space, since we are only storing two array values at any given time.
     """
+    # check for integers
+    if type(n) != int:
+        raise TypeError('Value of n must be an integer')
+    # check for negatives
+    if n < 0:
+        raise TypeError('Value of n must be a positive integer')
 
     last_two = [0, 1]
 
@@ -33,4 +39,5 @@ def efficient_fibonacci(n):
         next_fibonacci = sum(last_two)
         last_two = [last_two[1], next_fibonacci]
         counter += 1
-    return last_two[1] if n > 1 else 0
+    # the else clause caters for the edge case of the first fibo number == 0
+    return last_two[1] if n > 1 else last_two[0]
