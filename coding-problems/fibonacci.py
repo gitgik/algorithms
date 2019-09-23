@@ -1,4 +1,10 @@
 def fibonacci(n, memoize={1:0, 2: 1}):
+    """
+    Calculate the nth fibonacci number using memoization.
+
+    Complexity:
+        O(n) time, O(n) space
+    """
     # check for integers
     if type(n) != int:
         raise TypeError('Value of n must be an integer')
@@ -9,3 +15,22 @@ def fibonacci(n, memoize={1:0, 2: 1}):
     else:
         memoize[n] = fibonacci(n - 1, memoize) + fibonacci(n - 2, memoize)
         return memoize[n]
+
+
+def efficient_fibonacci(n):
+    """
+    Calculate the nth fibonacci number iteratively
+
+    Complexity:
+        O(n) time,
+        O(1) space, since we are only storing two array values at any given time.
+    """
+
+    last_two = [0, 1]
+
+    counter = 3
+    while counter <= n:
+        next_fibonacci = sum(last_two)
+        last_two = [last_two[1], next_fibonacci]
+        counter += 1
+    return last_two[1] if n > 1 else 0
