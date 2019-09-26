@@ -4,10 +4,18 @@ returns a sorted array of three largest
 integers from the array.
 Note that the function should return duplicate integers if necessary;
 e.g: it should return [10, 10, 12] for an input array [10, 5, 9, 10, 12, 7]
+
+Sample input: [141, 1, 16, -7, -17, -20, 18, 541, 8, 7, 7]
 """
 
 
 def find_three_largest_numbers(array):
+    """Find the three largest integers from a list of integers.
+
+    Complexity:
+        O(n) time, since we traverse the n-length list to the end
+        O(1) space, because we only store the final array of the 3 largest numbers
+    """
     three_largest = [None, None, None]
     for num in array:
         update_largest(three_largest, num)
