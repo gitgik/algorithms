@@ -1,3 +1,12 @@
+"""
+Write a function that takes in an array of ints,
+returns a sorted array of three largest
+integers from the array.
+Note that the function should return duplicate integers if necessary;
+e.g: it should return [10, 10, 12] for an input array [10, 5, 9, 10, 12, 7]
+"""
+
+
 def find_three_largest_numbers(array):
     three_largest = [None, None, None]
     for num in array:
