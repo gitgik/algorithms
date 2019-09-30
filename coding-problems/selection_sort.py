@@ -7,7 +7,8 @@ def selection_sort(array):
         smallest_index = current_index
         for i in range(current_index + 1, len(array)):
             if array[smallest_index] > array[i]:
-                swap(smallest_index, i, array)
+                smallest_index = i
+        swap(smallest_index, current_index, array)
         current_index += 1
 
     return array
