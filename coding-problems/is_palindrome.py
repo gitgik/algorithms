@@ -31,3 +31,15 @@ def is_palindrome_best(string):
         left_index += 1
         right_index -= 1
     return True
+
+
+def is_palindrome2(string, i = 0):
+    """
+    Recursive implementation.
+
+    Complexity:
+        O(n) space
+        O(n) time
+    """
+    j = len(string) - 1 - i
+    return True if i >= j else string[i] == string[j] and is_palindrome2(string, i + 1)
