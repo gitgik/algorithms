@@ -1,5 +1,7 @@
 """"All the ways to implement a palindrom checker.
 
+Check if the string is a palindrome, return True, otherwise, return False.
+
 A palindrome is defined as a string that is written the same forward and backward.
 """
 
