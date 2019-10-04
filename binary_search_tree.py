@@ -48,11 +48,18 @@ class BST:
         """Search for a value in the BST.
         """
         current_node = self
-        if value < current_node.value:
-            current_node = current_node.left
-        elif value > current_node.value:
-            current_node = current_node.right
-        else:
-            # found it!
-            return True
+        while current_node is not None:
+            if value < current_node.value:
+                current_node = current_node.left
+            elif value > current_node.value:
+                current_node = current_node.right
+            else:
+                # found it!
+                return True
         return False
+
+    def remove(self, value):
+        """Remove a node from the BST tree."""
+        current_node = self
+       while current_node is not None:
+           pass
