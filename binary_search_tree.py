@@ -16,6 +16,34 @@ class BST:
         self.left = None
         self.right = None
 
+    def insert(self, value):
+        """Insert a value in the BST.
+
+        Complexity:
+            Average Case:
+                O(log(N)) time
+                O(1) space
+
+            Worst Case: (Where the tree is unbalanced and has only one branch to the left)
+                O(n) time
+                O(1) space
+        """
+        current_node = self
+        while True:
+            if value < current_node.value:
+                if current_node.left is None:
+                    current_node.left = BST(value)
+                    break
+                else:
+                    current_node = current_node.left
+            else:
+                # value is greater than current node's value
+                if current_node.right is None:
+                    current_node.right = BST(value)
+                    break
+                else:
+                    current_node = current_node.right
+
     def contains(self, value):
         """Search for a value in the BST.
         """
