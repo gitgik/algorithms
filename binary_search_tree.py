@@ -58,8 +58,40 @@ class BST:
                 return True
         return False
 
-    def remove(self, value):
+    def remove(self, value, parent_node = None):
         """Remove a node from the BST tree."""
         current_node = self
        while current_node is not None:
-           pass
+           if value < current_node.value:
+               parent_node = current_node
+               current_node = current_node.left
+            elif value > current_node.value:
+                parent_node = current_node
+                current_node = current_node.right
+            else:
+                # we've found the node, time to delete it
+                if current_node.left is not None and current_node.right is not None:
+                    # set current node value = smallest value of right subtree.
+                    current_node.value = current_node.rigth.get_min_value()
+                    current_node.right.remove(current_node.value, current_node)
+                elif parent_node is None:
+                    # if we are removing the root node (it does not have a parent node)
+                    pass
+                elif parent_node.left == current_node:
+                    parent_node.left =
+                        current_node.left if current_node.left is not None else
+                        current_node.right
+                elif parent_node.right == current_node:
+                    parent_node.right =
+                        current_node.right if current_node.right is not None else
+                        current_node.left
+                break
+        return self
+
+    def get_min_value(self):
+        """Helper function to find the smallest value of a sub-tree."""
+        current_node = self
+        while current_node.value is not None:
+            current_node = current_node.left
+        return current_node.value
+
