@@ -11,6 +11,12 @@ A node is said to be a BST node if and only if it satisfies the BST property:
 
 
 class BST:
+    """
+    For this implementation, we'll use the iterative approach, because
+    it has a space complexity of constant time, while the recursive
+    approach will create a call stack in memory which will take O(n) space.
+    """
+
     def __init__(self, value):
         self.value = value
         self.left = None
@@ -46,6 +52,11 @@ class BST:
 
     def contains(self, value):
         """Search for a value in the BST.
+
+        Complexity:
+            Average Case: O(log(N)) time,  O(1) space
+
+            Worst Case: O(n) time, O(1) space
         """
         current_node = self
         while current_node is not None:
@@ -59,7 +70,15 @@ class BST:
         return False
 
     def remove(self, value, parent_node = None):
-        """Remove a node from the BST tree."""
+        """Remove a node from the BST tree.
+
+        Complexity:
+            Average Case:
+                O(log(N)) time, O(1) space
+
+            Worst Case:
+                O(n) time, O(1) space
+        """
         current_node = self
        while current_node is not None:
            if value < current_node.value:
