@@ -76,7 +76,17 @@ class BST:
                     current_node.right.remove(current_node.value, current_node)
                 elif parent_node is None:
                     # if we are removing the root node (it does not have a parent node)
-                    pass
+                    if current_node.left is not None:
+                        current_node.value = current_node.left.value
+                        current_node.right = current_node.left.rigtht
+                        current_node.left = current_node.left.left
+                    elif current_node.right is not None:
+                        current_node.value = current_node.right.value
+                        current_node.left = current_node.right.left
+                        current_node.right = current_node.right.right
+                    else:
+                        # no child nodes exist for this BST, so we just delete the BST
+                        current_node.value = None
                 elif parent_node.left == current_node:
                     parent_node.left =
                         current_node.left if current_node.left is not None else
