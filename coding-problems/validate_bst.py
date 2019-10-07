@@ -10,6 +10,11 @@ Assume a BST is defined as follows:
 
 
 def validate_bst(tree):
+    """
+    Complexity:
+        O(n) time, since we are traversing every node once.
+        O(d) space, where d == the depth of the binary search tree.
+    """
     return is_valid_helper(tree, min_value=float("-inf"), max_value=float("inf"))
 
 def is_valid_helper(tree, min_value, max_value):
