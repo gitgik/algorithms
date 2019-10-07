@@ -11,9 +11,12 @@ Assume a BST is defined as follows:
 
 def validate_bst(tree):
     """
+    Recursive approach to validating a Binary Search Tree.
+
     Complexity:
         O(n) time, since we are traversing every node once.
         O(d) space, where d == the depth of the binary search tree.
+        The depth of the tree is the length of the longest branch.
     """
     return is_valid_helper(tree, min_value=float("-inf"), max_value=float("inf"))
 
