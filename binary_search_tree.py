@@ -125,3 +125,9 @@ class BST:
             current_node = current_node.left
         return current_node.value
 
+
+# if you want to run it
+if __name__ == '__main__':
+    bst = BST(10).insert(5).insert(15).insert(7).insert(2).insert(14).insert(22)
+    print(bst)
+    print(bst.remove(10))
