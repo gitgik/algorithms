@@ -5,7 +5,7 @@ A node is said to be a BST node if and only if it satisfies the BST property:
     equal to the values of every node to its right, and all its children nodes are either
     BST nodes themselves or null values.
 
-    The BST shuold support insertion, searching and removal of values.
+    The BST should support insertion, searching and removal of values.
     The removal method should only remove the first instance of the target value.
 """
 
