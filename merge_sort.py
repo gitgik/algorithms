@@ -2,6 +2,11 @@
 
 
 def merge_sort(array):
+    """
+    Complexity:
+        O(n log n)) time -- for both average and worst case.
+        O(n) space
+    """
     if len(array) <= 1:
         # already sorted
         return array
@@ -20,6 +25,7 @@ def merge(left_array, right_array):
     right_index = 0
 
     while len(result) < (len(right_array) + len(left_array)):
+        #
         if left_array[left_index] <= right_array[right_index]:
             result.append(left_array[left_index])
             left_index += 1
@@ -27,7 +33,8 @@ def merge(left_array, right_array):
             result.append(right_array[right_index])
             right_index += 1
 
-        # if we are at the end of either of the lists,
+        # if we are at the end of one of the lists,
+        # concatenate the rest of the other one, preventing index out or range errors
         if left_index == len(left_array):
             # reached the end of left list, append the remainder of right list
             result += right_array[right_index:]
