@@ -9,6 +9,12 @@ nodes themselves or None values.
 
 
 def invert_binary_tree(tree):
+    """Recursive implementation of inverting a binary search tree.
+
+    Complexity:
+        O(n) time, where n = number of nodes in binary tree.
+        O(d) space, where d = depth of binary tree.
+    """
     if tree is None:
         return
     swap_left_right(tree)
