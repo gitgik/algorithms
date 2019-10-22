@@ -6,6 +6,18 @@ Implement a method in the class which takes in an empty array,
 traverses the tree using the Breadth-first Search approach
 (specifically navigating the tree left to right),
 Store all the nodes it traverses in the input array, and returns it.
+
+Sample input:
+    A
+   / \
+  B   C
+ / \
+D   E
+   / \
+  F   G
+
+
+Sample output: [A,B,C,D,E,F,G]
 """
 
 
