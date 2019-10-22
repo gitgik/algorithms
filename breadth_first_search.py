@@ -21,6 +21,11 @@ class Node:
         return self
 
     def breadth_first_search(self, array):
+        """
+        Complexity:
+            O(v + e) time, where v = vertices(nodes) and e = edges(connections)
+            O(v) space, since we at worst case, we have a queue that holds V - 1 nodes.
+        """
         queue = [self]
         while len(queue) > 0:
             current = queue.pop(0)
