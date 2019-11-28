@@ -9,6 +9,11 @@ Sample output: [1, 3, 7, 1, 2, 2, 2]
 """
 
 def move_elements_to_end(array, to_move):
+    """
+    Complexity:
+        O(n) time, where n = length of array
+        O(1) constant space, since we aren't using any auxiliary data structure
+    """
     i = 0
     j = len(array) - 1
 
@@ -18,6 +23,7 @@ def move_elements_to_end(array, to_move):
             j -= 1
 
         if array[i] == to_move:
+            # swap (constant time operation)
             array[i], array[j] = array[j], array[i]
 
         # increment i
