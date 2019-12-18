@@ -50,6 +50,11 @@ def levenshtein_distance(str1, str2):
 
 
 def levenshtein_distance_efficient(str1, str2):
+    """
+        Complexity:
+            Time: O(nm) where n = length of str1, and m = length of str2
+            Space: O(min(m, n))
+    """
     small = str1 if len(str1) < len(str2) else str2
     big = str1 if len(str1) >= len(str2) else str2
 
