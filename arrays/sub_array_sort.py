@@ -14,6 +14,11 @@ Sample output: [2, 7]
 
 
 def sub_array_sort(array):
+    """
+    Complexity
+        Space: O(1)
+        Time: O(n)
+    """
 
     min_unsorted_num = float('inf')
     max_unsorted_num = float('-inf')
