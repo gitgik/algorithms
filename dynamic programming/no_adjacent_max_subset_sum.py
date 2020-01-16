@@ -10,6 +10,11 @@ Sample output: 34 -> [7 + 12 + 15]
 
 
 def max_subset_no_adjacent_sum(array):
+    """
+    Complexity:
+        Space: O(n)
+        Time: O(n)
+    """
     if not len(array):
         return 0
     elif len(array) == 1:
