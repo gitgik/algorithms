@@ -31,7 +31,7 @@ class BST:
                 O(1) space
 
             Worst Case: (Where the tree is unbalanced and has only one branch to the left)
-                O(n) time
+                O(n) time, where n is total number of nodes in the tree
                 O(1) space
         """
         current_node = self
@@ -105,14 +105,14 @@ class BST:
                         current_node.left = current_node.right.left
                         current_node.right = current_node.right.right
                     else:
-                        # no child nodes exist for this BST, so we just delete the BST
-                        current_node.value = None
+                        # no child nodes exist for this BST, so do nothing
+                        pass
                 elif parent_node.left == current_node:
                     parent_node.left = (
                         current_node.left if current_node.left is not None else
                         current_node.right)
                 elif parent_node.right == current_node:
-                    parent_node.left = (
+                    parent_node.right = (
                         current_node.left if current_node.left is not None else
                         current_node.right)
                 break
