@@ -11,11 +11,7 @@ class DoubleLinkedList:
         self.tail = None
 
     def set_head(self, node):
-        """
-        Set the head of the linked list.
-        Complexity:
-            O(1) time | O(1) space
-        """
+        """O(1) time | O(1) space"""
         if self.head is None:
             self.head = node
             self.tail = node
@@ -23,26 +19,17 @@ class DoubleLinkedList:
         self.insert_before(self.head, node)
 
     def set_tail(self, node):
-        """
-        Set the tail of the linked list.
-        Complexity:
-            O(1) time | O(1) space
-        """
+        """O(1) time | O(1) space"""
         if self.tail is None:
             self.set_head(node)
             return
         self.insert_after(self.tail, node)
 
     def insert_before(self, node, node_to_insert):
-        """
-        Insert a node before the specified node.
-        Complexity:
-            O(1) time | O(1) space
-        """
-        if node_to_insert == self.head and node_to_insert == node.tail:
-            # node already exists as tail or head
+        """O(1) time | O(1) space"""
+        if node_to_insert == self.head and node_to_insert == self.tail:
             return
-        # first, remove the node to insert currently exists in the linked list
+        # first, remove node if it exists
         self.remove(node_to_insert)
         node_to_insert.prev = node.prev
         node_to_insert.next = node
@@ -54,11 +41,7 @@ class DoubleLinkedList:
         node.prev = node_to_insert
 
     def insert_after(self, node, node_to_insert):
-        """
-        Insert a new node after the specified node.
-        Complexity:
-            O(1) time | O(1) space
-        """
+        """O(1) time | O(1) space"""
         if node_to_insert == self.head and node_to_insert == self.tail:
             return
         # first remove the node to insert if it currently exists in the linked list
@@ -73,12 +56,7 @@ class DoubleLinkedList:
         node.next = node_to_insert
 
     def insert_at_position(self, position, node_to_insert):
-        """
-        Insert a node at a position
-        Complexity:
-            O(p) time  - since we are iterating up until position p
-            O(1) space - constant time setting of pointers
-        """
+        """O(1) space | O(p) time  - since we are iterating up until position p"""
         if position == 1:
             self.set_head(node_to_insert)
             return
@@ -94,12 +72,7 @@ class DoubleLinkedList:
             self.set_tail(node_to_insert)
 
     def remove_nodes_with_value(self, value):
-        """
-        Remove a node that contains this value.
-        Complexity:
-            O(n) time  where n is the size of the linked list
-            O(1) space
-        """
+        """O(n) time | O(1) space"""
         node = self.head
         while node is not None:
             # temporary save the current node, to not lose it while we check
@@ -111,11 +84,7 @@ class DoubleLinkedList:
                 self.remove(node_to_remove)
 
     def remove(self, node):
-        """
-        Remove a node from the list
-        Complexity:
-            O(1) time | O(1) space
-        """
+        """O(1) time | O(1) space"""
         if node == self.head:
             self.head = self.head.next
         if node == self.tail:
@@ -123,28 +92,22 @@ class DoubleLinkedList:
         self.update_node_bindings(node)
 
     def contains_node_with_value(self, value):
-        """
-        Return True if the linked list contains a node with the input value.
-        Complexity:
-            O(n) time | O(1) space
-        """
+        """O(n) time | O(1) space"""
         node = self.head
         while node is not None and node.value != value:
             node = node.next
         return node is not None
 
     def update_node_bindings(self, node):
-        """
-        Update the pointers of a node when a node is removed from the doubly linked list.
+        """Update the pointers of a node when a node is removed from the doubly linked list.
         """
         # the order in which you remove pointers matters. otherwise, we might delete nodes
         # and never recover them forever.
-
         if node.prev is not None:
             node.prev.next = node.next
-        node.prev = None
         if node.next is not None:
             node.next.prev = node.prev
+        node.prev = None
         node.next = None
 
 
