@@ -8,9 +8,9 @@ A collection of data structures and coding problems implemented in Python
 ### Arrays
 
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
-- [K-sorted lists](k_sorted_lists.ipynb)
-- [Longest peak in an array](longest_peak_in_array.ipynb)
-- [Move element to end of array](move_element_to_end.py)
+- [K-sorted lists](arrays/k_sorted_lists.ipynb)
+- [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
+- [Move element to end of array](arrays/move_element_to_end.py)
 
 ### Binary Search Trees
 
