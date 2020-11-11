@@ -10,14 +10,10 @@ import re
 
 
 def reverse(string, delimiters):
-    """
-    Approach:
-        Split the words and delimiters into their respective lists.
-        Then reverse the list of words and merge the two lists together.
+    """Split the words and delimiters into their respective lists.
+    Then reverse the list of words and merge the two lists together.
 
-    Complexity:
-        Time: O(n)
-        Space: O(n), where n == length of input string.
+    Complexity: O(n) time | O(n) space, where n == length of input string.
     """
     words = re.split(f"[{delimiters}]+", string)
     not_words = re.split(f"[^({delimiters})]+", string)
@@ -27,8 +23,7 @@ def reverse(string, delimiters):
         words = words[:-1]
 
     # NOTE: we can in built reverse but there's always another way
-    # reversed_string = reversed(words)
-
+    # reversed_strings = list(reversed(words))
     start = 0
     end = len(words) - 1
     while start < end:
