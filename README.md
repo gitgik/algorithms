@@ -7,6 +7,11 @@ A collection of data structures and coding problems implemented in Python
 
 ### Arrays
 
+- [Find first duplicate element](arrays/first_duplicate.ipynb)
+- [K-sorted lists](k_sorted_lists.ipynb)
+- [Longest peak in an array](longest_peak_in_array.ipynb)
+- [Move element to end of array](move_element_to_end.py)
+
 ### Binary Search Trees
 
 ### Binary Trees
@@ -31,6 +36,7 @@ A collection of data structures and coding problems implemented in Python
 - [Palindrome checker](strings/is_palindrome.py)
 - [Number palindrome checker](strings/number_palindrome.ipynb)
 - [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
+- [Reverse mutable string](strings/reverse_words.py)
 
 ### Tries
 

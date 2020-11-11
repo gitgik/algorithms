@@ -3,16 +3,13 @@ Write a function that moves all the instances of that integer in the array to
 the end of the array.
 
 Sample input: [2, 1, 2, 3, 7, 2, 1], 2
-
 Sample output: [1, 3, 7, 1, 2, 2, 2]
-
 """
 
+
 def move_elements_to_end(array, to_move):
-    """
-    Complexity:
-        O(n) time, where n = length of array
-        O(1) constant space, since we aren't using any auxiliary data structure
+    """Complexity:
+        O(n) time | O(1) space, since we aren't using any auxiliary data structure
     """
     i = 0
     j = len(array) - 1
