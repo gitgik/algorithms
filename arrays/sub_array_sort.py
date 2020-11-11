@@ -7,18 +7,13 @@ of the smallest sub-array.
 
 If  the whole input array is already sorted, return [-1, -1]
 
-
 Sample input: [1, 2, 4, 10, 15, 3, 5, 7, 17]
 Sample output: [2, 7]
 """
 
 
 def sub_array_sort(array):
-    """
-    Complexity
-        Space: O(1)
-        Time: O(n)
-    """
+    """Complexity: O(n) time | O(1) space."""
 
     min_unsorted_num = float('inf')
     max_unsorted_num = float('-inf')

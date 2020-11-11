@@ -11,6 +11,13 @@ A collection of data structures and coding problems implemented in Python
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
+- [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
+- [Neighboring products of ith element](arrays/product.ipynb)
+- [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
+- [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
+- [Smallest difference between two arrays](arrays/smallest_difference.py)
+- [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
+- [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
 
 ### Binary Search Trees
 
