@@ -1,8 +1,6 @@
 """Find the smallest difference between two arrays.
-
 The function should take in two arrays,
 Find the pair of numbers in the array whose absolute difference is closest to zero.
-
 """
 
 
@@ -24,7 +22,6 @@ def smallest_difference(array_one, array_two):
     idx_one = 0
     idx_two = 0
 
-    #
     current_diff = float('inf')
     smallest_diff = float('inf')
 
