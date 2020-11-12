@@ -56,6 +56,13 @@ A collection of data structures and coding problems implemented in Python
 
 ### Graphs
 
+- [Boggle game](graphs/boggle_game.ipynb)
+- [Breadth first search](graphs/breadth_first_search.py)
+- [Breadth first search using queue](graphs/breadth_first_search_using_queue.ipynb)
+- [Depth first search](graphs/dfs_graph.py)
+- [Single cycle check](graphs/single_cycle_check.ipynb)
+- [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
+
 ### Linked Lists
 
 ### Recursion
