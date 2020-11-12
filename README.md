@@ -46,6 +46,14 @@ A collection of data structures and coding problems implemented in Python
 
 ### Dynamic Programming
 
+- [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
+- [Knapsack problem](dynamic-programming/knapsack.ipynb)
+- [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
+- [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.ipynb)
+- [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.ipynb)
+- [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
+- [All ways to make change given denominations](no_of_ways_to_make_change.ipynb)
+
 ### Graphs
 
 ### Linked Lists
