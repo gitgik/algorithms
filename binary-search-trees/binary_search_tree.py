@@ -12,9 +12,8 @@ A node is said to be a BST node if and only if it satisfies the BST property:
 
 class BST:
     """
-    For this implementation, we'll use the iterative approach, because
-    it has a space complexity of constant time, while the recursive
-    approach will create a call stack in memory which will take O(n) space.
+    We'll use the iterative approach (due to constant space).
+    Recursive approach creates a call stack in memory -> O(n) space.
     """
 
     def __init__(self, value):
@@ -26,10 +25,7 @@ class BST:
         """Insert a value in the BST.
 
         Complexity:
-            Average Case:
-                O(log(N)) time
-                O(1) space
-
+            Average Case: O(log(N)) time | O(1) space
             Worst Case: (Where the tree is unbalanced and has only one branch to the left)
                 O(n) time, where n is total number of nodes in the tree
                 O(1) space
@@ -55,9 +51,8 @@ class BST:
         """Search for a value in the BST.
 
         Complexity:
-            Average Case: O(log(N)) time,  O(1) space
-
-            Worst Case: O(n) time, O(1) space
+            Average Case: O(log(N)) time |  O(1) space
+            Worst Case: O(n) time | O(1) space
         """
         current_node = self
         while current_node is not None:
@@ -74,11 +69,8 @@ class BST:
         """Remove a node from the BST tree.
 
         Complexity:
-            Average Case:
-                O(log(N)) time, O(1) space
-
-            Worst Case:
-                O(n) time, O(1) space
+            Average Case: O(log(N)) time | O(1) space
+            Worst Case: O(n) time, O(1) space
         """
         current_node = self
         while current_node is not None:
@@ -119,15 +111,16 @@ class BST:
         return self
 
     def get_min_value(self):
-        """Helper function to find the smallest value of a sub-tree."""
+        """Helper function to find the smallest value in a sub-tree."""
         current_node = self
         while current_node.left is not None:
             current_node = current_node.left
         return current_node.value
 
 
-# if you want to run it
+# run it
 if __name__ == '__main__':
-    bst = BST(10).insert(5).insert(15).insert(7).insert(2).insert(14).insert(22)
+    bst = BST(10).insert(5).insert(15).insert(
+        7).insert(2).insert(14).insert(22)
     print(bst)
     print(bst.remove(10))
