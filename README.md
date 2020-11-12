@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/gitgik/data-structures-implementation.svg?branch=master)](https://travis-ci.org/gitgik/data-structures-implementation)
 [![Code Quality](https://api.codacy.com/project/badge/Grade/0ab2d18dac654883a4d68ab6bc790c5e)](https://www.codacy.com/manual/gitgik/data-structures-implementation?utm_source=github.com&utm_medium=referral&utm_content=gitgik/data-structures-implementation&utm_campaign=Badge_Grade)
 
-A collection of data structures and coding problems implemented in Python
+A catalogue of data structures implementation + algorithms and coding problems around them.
 
 ### Arrays
 
@@ -46,9 +46,36 @@ A collection of data structures and coding problems implemented in Python
 
 ### Dynamic Programming
 
+- [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
+- [Knapsack problem](dynamic-programming/knapsack.ipynb)
+- [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
+- [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.ipynb)
+- [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.ipynb)
+- [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
+- [All ways to make change given denominations](no_of_ways_to_make_change.ipynb)
+
 ### Graphs
 
+- [Boggle game](graphs/boggle_game.ipynb)
+- [Breadth first search](graphs/breadth_first_search.py)
+- [Breadth first search using double-ended queue](graphs/breadth_first_search_using_deque.ipynb)
+- [Depth first search](graphs/dfs_graph.py)
+- [Single cycle check](graphs/single_cycle_check.ipynb)
+- [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
+
+### Heaps
+
+- [Min heap construction + heap operations](heaps/min_heap.ipynb)
+
 ### Linked Lists
+
+- [Doubly linked list and all operations](linked-lists/doubly_linked_list.py)
+- [Find whether linked list has loop](linked-lists/find_loop.ipynb)
+- [Linked list and all operations](linked-lists/linked_list.py)
+- [LRU Cache implementation](linked-lists/least_recently_used_cache.ipynb)
+- [Remove kth node from end](linked-lists/remove_kth_node_from_end.ipynb)
+- [Reverse linked list](linked-lists/reverse_linked_list.ipynb)
+- [Sort linked list in O(N log N) time and constant space](linked-lists/sorting_linked_list.ipynb)
 
 ### Recursion
 
