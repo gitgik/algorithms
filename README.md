@@ -79,7 +79,13 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ### Recursion
 
+- [Fibonacci](recursion/fibonacci.py)
+- [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
+- [Recursive binary search](recursion/recursive_binary_search.ipynb)
+- [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
+  
 ### Searching
+
 
 ### Sorting
 
