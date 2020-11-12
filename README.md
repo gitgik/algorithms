@@ -35,7 +35,14 @@ A collection of data structures and coding problems implemented in Python
 
 ### Binary Trees
 
-- []
+- [Sum nodes within a given range](binary-trees/binary_range_sum.ipynb)
+- [Invert a binary tree](binary-trees/binary_tree_inversion.py)
+- [Binary tree sum](binary-trees/binary_tree_sum.ipynb)
+- [Flatten a binary tree](binary-trees/flatten_binary_tree.ipynb)
+- [Is binary tree balanced?](binary-trees/is_binary_tree_balanced.ipynb)
+- [Print binary tree nodes level-wise](binary-trees/print_binary_tree_nodes.py)
+- [Serialize and deserialize binary tree](binary-trees/serialize_deserialize_tree.ipynb)
+- [Traverse in-order iteratively](binary-trees/traverse_in_order_iteratively.ipynb)
 
 ### Dynamic Programming
 
