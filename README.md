@@ -31,9 +31,11 @@ A collection of data structures and coding problems implemented in Python
 - [Find BST node closest to a given value](binary-search-trees/find_closest_value_bst.py)
 - [Find second largest node](binary-search-trees/find_second_largest_node.ipynb)
 - [Remove a node from BST](binary-search-trees/remove_node_from_bst.ipynb)
-- [Determine whether two arrays can form same BST](same_bsts.ipynb)
+- [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.ipynb)
 
 ### Binary Trees
+
+- []
 
 ### Dynamic Programming
 
