@@ -1,12 +1,7 @@
-"""
-Implementation of depth first search on a tree.
-"""
-
-
 class Node():
     def __init__(self, name):
-        self.name = name  # node value
-        self.children = []  # optional child nodes
+        self.name = name
+        self.children = []
 
     def add_child(self, name):
         self.children.append(Node(name))
@@ -18,9 +13,7 @@ class Node():
         This allows the function to traverse the tree,
         visiting the left-most child first and adding the values to the array
 
-        Running Complexity:
-            Time: O(V + E), where V = number of vertices, E = edges
-            Space: O(V)
+        Complexity: O(V + E) time | O(V) space | V = vertices, E = edges
         """
 
         array.append(self.name)
