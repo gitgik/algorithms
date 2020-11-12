@@ -25,6 +25,11 @@ A collection of data structures and coding problems implemented in Python
 
 ### Binary Search Trees
 
+- [BST with insertion, deletion and removal operations](binary_search_tree.py)
+- [BST construction from array](bst_construction_from_array.ipynb)
+- [BST validation](bst_validation.py)
+- [Find closest value in BST](find_closest_value_bst.py)
+
 ### Binary Trees
 
 ### Dynamic Programming
