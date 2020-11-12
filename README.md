@@ -58,7 +58,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Boggle game](graphs/boggle_game.ipynb)
 - [Breadth first search](graphs/breadth_first_search.py)
-- [Breadth first search using queue](graphs/breadth_first_search_using_queue.ipynb)
+- [Breadth first search using double-ended queue](graphs/breadth_first_search_using_deque.ipynb)
 - [Depth first search](graphs/dfs_graph.py)
 - [Single cycle check](graphs/single_cycle_check.ipynb)
 - [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
