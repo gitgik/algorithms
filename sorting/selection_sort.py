@@ -2,11 +2,7 @@
 
 
 def selection_sort(array):
-    """
-    Complexity:
-        O(1) space
-        O(n2) time
-    """
+    """Complexity: O(1) space | O(n^2) time"""
     current_index = 0
     while current_index < len(array) - 1:
         smallest_index = current_index
@@ -15,7 +11,6 @@ def selection_sort(array):
                 smallest_index = i
         swap(current_index, smallest_index, array)
         current_index += 1
-
     return array
 
 

@@ -79,16 +79,33 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ### Recursion
 
+- [Fibonacci](recursion/fibonacci.py)
+- [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
+- [Recursive binary search](recursion/recursive_binary_search.ipynb)
+- [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
+  
 ### Searching
+
+- [Binary search implementation](searching/binary_search.py)
+- [Three largest numbers search](searching/three_largest_numbers.py)
 
 ### Sorting
 
+- [Bubble sort](sorting/bubble_sort.py)
+- [Insertion sort](sorting/insertion_sort.py)
+- [Merge sort](sorting/merge_sort.py)
+- [Quick sort](sorting/quicksort.ipynb)
+- [Selection sort](sorting/selection_sort.py)
+
 ### Stacks
+
+- [Min stack with constant time operations](stacks/min_max_stack.ipynb)
+
 
 ### Strings
 
 - [Caesar cipher](strings/caesar_cipher.py)
-- [Palindrome checker](strings/is_palindrome.py)
+- [String palindrome checker](strings/is_palindrome.py)
 - [Number palindrome checker](strings/number_palindrome.ipynb)
 - [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
 - [Reverse mutable string](strings/reverse_words.py)
