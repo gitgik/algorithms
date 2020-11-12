@@ -25,10 +25,13 @@ A collection of data structures and coding problems implemented in Python
 
 ### Binary Search Trees
 
-- [BST with insertion, deletion and removal operations](binary_search_tree.py)
-- [BST construction from array](bst_construction_from_array.ipynb)
-- [BST validation](bst_validation.py)
-- [Find closest value in BST](find_closest_value_bst.py)
+- [BST with insertion, deletion and removal operations](binary-search-trees/binary_search_tree.py)
+- [BST construction from array](binary-search-trees/bst_construction_from_array.ipynb)
+- [BST validation](binary-search-trees/bst_validation.py)
+- [Find BST node closest to a given value](binary-search-trees/find_closest_value_bst.py)
+- [Find second largest node](binary-search-trees/find_second_largest_node.ipynb)
+- [Remove a node from BST](binary-search-trees/remove_node_from_bst.ipynb)
+- [Determine whether two arrays can form same BST](same_bsts.ipynb)
 
 ### Binary Trees
 
