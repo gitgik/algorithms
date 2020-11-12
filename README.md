@@ -91,6 +91,12 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ### Sorting
 
+- [Bubble sort](sorting/bubble_sort.py)
+- [Insertion sort](sorting/insertion_sort.py)
+- [Merge sort](sorting/merge_sort.py)
+- [Quick sort](sorting/quicksort.ipynb)
+- [Selection sort](sorting/selection_sort.py)
+
 ### Stacks
 
 ### Strings
