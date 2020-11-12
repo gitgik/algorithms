@@ -6,6 +6,8 @@ Note that the function should return duplicate integers if necessary;
 e.g: it should return [10, 10, 12] for an input array [10, 5, 9, 10, 12, 7]
 
 Sample input: [141, 1, 16, -7, -17, -20, 18, 541, 8, 7, 7]
+
+Sample output: [141, 18, 541]
 """
 
 
