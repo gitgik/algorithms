@@ -63,7 +63,16 @@ A collection of data structures and coding problems implemented in Python
 - [Single cycle check](graphs/single_cycle_check.ipynb)
 - [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
 
+### Heaps
+
+- [Min heap construction + heap operations](heaps/min_heap.ipynb)
+
 ### Linked Lists
+
+- [](linked-lists/)
+- [](linked-lists/)
+- [](linked-lists/)
+- [](linked-lists/)
 
 ### Recursion
 
