@@ -15,8 +15,8 @@ def dfs(graph, start, visited=None):
         visited = set()
 
     visited.add(start)
-    for next in graph[start] - visited:
-        dfs(graph, next, visited)
+    for nextVertex in graph[start] - visited:
+        dfs(graph, nextVertex, visited)
     return visited
 
 
@@ -30,4 +30,3 @@ def dfs_iterative(graph, start):
             visited.add(vertex)
             stack.extend(graph[vertex] - visited)
     return visited
-
