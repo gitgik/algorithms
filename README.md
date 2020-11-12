@@ -99,10 +99,13 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ### Stacks
 
+- [Min stack with constant time operations](stacks/min_max_stack.ipynb)
+
+
 ### Strings
 
 - [Caesar cipher](strings/caesar_cipher.py)
-- [Palindrome checker](strings/is_palindrome.py)
+- [String palindrome checker](strings/is_palindrome.py)
 - [Number palindrome checker](strings/number_palindrome.ipynb)
 - [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
 - [Reverse mutable string](strings/reverse_words.py)
