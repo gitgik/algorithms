@@ -86,6 +86,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
   
 ### Searching
 
+- [Binary search implementation](searching/binary_search.py)
+- [Three largest numbers search](searching/three_largest_numbers.py)
 
 ### Sorting
 
