@@ -18,6 +18,10 @@ A collection of data structures and coding problems implemented in Python
 - [Smallest difference between two arrays](arrays/smallest_difference.py)
 - [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
+- [Trap water in elevation map](arrays/trapwater.ipynb)
+- [Two sum](arrays/two_sum.ipynb)
+- [Three sum](arrays/zero_threesum.ipynb)
+- [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
 
 ### Binary Search Trees
 
