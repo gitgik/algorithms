@@ -1,11 +1,11 @@
-## Data Structures Implementation
+# Data Structures Implementation
 
 [![Build Status](https://travis-ci.org/gitgik/data-structures-implementation.svg?branch=master)](https://travis-ci.org/gitgik/data-structures-implementation)
 [![Code Quality](https://api.codacy.com/project/badge/Grade/0ab2d18dac654883a4d68ab6bc790c5e)](https://www.codacy.com/manual/gitgik/data-structures-implementation?utm_source=github.com&utm_medium=referral&utm_content=gitgik/data-structures-implementation&utm_campaign=Badge_Grade)
 
 A catalogue of data structures implementation + algorithms and coding problems around them.
 
-### Arrays
+## Arrays
 
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
@@ -23,7 +23,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Three sum](arrays/zero_threesum.ipynb)
 - [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
 
-### Binary Search Trees
+## Binary Search Trees
 
 - [BST with insertion, deletion and removal operations](binary-search-trees/binary_search_tree.py)
 - [BST construction from array](binary-search-trees/bst_construction_from_array.ipynb)
@@ -33,7 +33,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Remove a node from BST](binary-search-trees/remove_node_from_bst.ipynb)
 - [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.ipynb)
 
-### Binary Trees
+## Binary Trees
 
 - [Sum nodes within a given range](binary-trees/binary_range_sum.ipynb)
 - [Invert a binary tree](binary-trees/binary_tree_inversion.py)
@@ -44,7 +44,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Serialize and deserialize binary tree](binary-trees/serialize_deserialize_tree.ipynb)
 - [Traverse in-order iteratively](binary-trees/traverse_in_order_iteratively.ipynb)
 
-### Dynamic Programming
+## Dynamic Programming
 
 - [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
 - [Knapsack problem](dynamic-programming/knapsack.ipynb)
@@ -54,7 +54,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
 - [All ways to make change given denominations](no_of_ways_to_make_change.ipynb)
 
-### Graphs
+## Graphs
 
 - [Boggle game](graphs/boggle_game.ipynb)
 - [Breadth first search](graphs/breadth_first_search.py)
@@ -63,11 +63,11 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Single cycle check](graphs/single_cycle_check.ipynb)
 - [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
 
-### Heaps
+## Heaps
 
 - [Min heap construction + heap operations](heaps/min_heap.ipynb)
 
-### Linked Lists
+## Linked Lists
 
 - [Doubly linked list and all operations](linked-lists/doubly_linked_list.py)
 - [Find whether linked list has loop](linked-lists/find_loop.ipynb)
@@ -77,19 +77,20 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Reverse linked list](linked-lists/reverse_linked_list.ipynb)
 - [Sort linked list in O(N log N) time and constant space](linked-lists/sorting_linked_list.ipynb)
 
-### Recursion
+## Recursion
 
 - [Fibonacci](recursion/fibonacci.py)
 - [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
 - [Recursive binary search](recursion/recursive_binary_search.ipynb)
 - [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
+- [Find min and max in array](recursion/min_max.ipynb)
   
-### Searching
+## Searching
 
 - [Binary search implementation](searching/binary_search.py)
 - [Three largest numbers search](searching/three_largest_numbers.py)
 
-### Sorting
+## Sorting
 
 - [Bubble sort](sorting/bubble_sort.py)
 - [Insertion sort](sorting/insertion_sort.py)
@@ -97,12 +98,12 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Quick sort](sorting/quicksort.ipynb)
 - [Selection sort](sorting/selection_sort.py)
 
-### Stacks
+## Stacks
 
 - [Min stack with constant time operations](stacks/min_max_stack.ipynb)
 
 
-### Strings
+## Strings
 
 - [Caesar cipher](strings/caesar_cipher.py)
 - [String palindrome checker](strings/is_palindrome.py)
@@ -110,6 +111,6 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
 - [Reverse mutable string](strings/reverse_words.py)
 
-### Tries
+## Tries
 
 - [Trie implementation](tries/trie.ipynb)
