@@ -46,13 +46,16 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Dynamic Programming
 
+- [Disk stacking](dynamic-programming/disk_stacking.ipynb)
 - [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
 - [Knapsack problem](dynamic-programming/knapsack.ipynb)
 - [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
 - [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.ipynb)
 - [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.ipynb)
 - [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
-- [All ways to make change given denominations](no_of_ways_to_make_change.ipynb)
+- [Minimum number of jumps to last index](dynamic-programming/min_jumps_to_end.ipynb)
+- [Ways to make change given denominations](no_of_ways_to_make_change.ipynb)
+
 
 ## Graphs
 
