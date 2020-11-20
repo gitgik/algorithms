@@ -88,6 +88,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Recursive binary search](recursion/recursive_binary_search.ipynb)
 - [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
 - [Find min and max in array](recursion/min_max.ipynb)
+- [Tower of Hanoi](recursion/tower_of_hanoi.ipynb)
   
 ## Searching
 
