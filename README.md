@@ -55,6 +55,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.ipynb)
 - [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
 - [Minimum number of jumps to last index](dynamic-programming/min_jumps_to_end.ipynb)
+- [Throw dice](dynamic-programming/throw_dice.ipynb)
 - [Ways to make change given denominations](no_of_ways_to_make_change.ipynb)
 
 
