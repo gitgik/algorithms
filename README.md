@@ -58,7 +58,6 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Throw dice](dynamic-programming/throw_dice.ipynb)
 - [Ways to make change given denominations](no_of_ways_to_make_change.ipynb)
 
-
 ## Graphs
 
 - [Boggle game](graphs/boggle_game.ipynb)
@@ -106,8 +105,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Stacks
 
+- [Interleave elements in a stack](stacks/interleave.ipynb)
 - [Min stack with constant time operations](stacks/min_max_stack.ipynb)
-
 
 ## Strings
 
