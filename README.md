@@ -85,6 +85,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Fibonacci](recursion/fibonacci.py)
 - [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
+- [Maximum matrix coins](recursion/matrix_maximum_coins.ipynb)
 - [Recursive binary search](recursion/recursive_binary_search.ipynb)
 - [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
 - [Find min and max in array](recursion/min_max.ipynb)
