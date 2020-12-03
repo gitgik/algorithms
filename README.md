@@ -83,6 +83,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Recursion
 
+- [Binary Tree Diameter](recursion/bst_diameter.ipynb)
 - [Fibonacci](recursion/fibonacci.py)
 - [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
 - [Maximum matrix coins](recursion/matrix_maximum_coins.ipynb)
