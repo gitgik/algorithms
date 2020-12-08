@@ -35,6 +35,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Binary Trees
 
+- [All paths from root to leaves](binary-trees/root_to_leaves_path.ipynb)
 - [Check whether tree T is subtree of S](binary-trees/compare_subtree.ipynb)
 - [Sum nodes within a given range](binary-trees/binary_range_sum.ipynb)
 - [Invert a binary tree](binary-trees/binary_tree_inversion.py)
