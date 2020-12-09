@@ -9,6 +9,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
+- [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
 - [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
