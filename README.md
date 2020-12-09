@@ -16,6 +16,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
 - [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
 - [Smallest difference between two arrays](arrays/smallest_difference.py)
+- [Sparse array](arrays/sparse_array.ipynb)
 - [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
 - [Trap water in elevation map](arrays/trapwater.ipynb)
