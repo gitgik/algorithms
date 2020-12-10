@@ -8,6 +8,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Arrays
 
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
+- [Flip a matrix](arrays/flip_matrix.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
 - [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
