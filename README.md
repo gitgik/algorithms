@@ -8,6 +8,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Arrays
 
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
+- [Flip a matrix](arrays/flip_matrix.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
 - [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
@@ -86,6 +87,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Recursion
 
+- [Count all sets adding to a target](recursion/count_sets_adding_to_target.ipynb)
 - [Binary Tree Diameter](recursion/bst_diameter.ipynb)
 - [Fibonacci](recursion/fibonacci.py)
 - [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
