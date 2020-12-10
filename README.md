@@ -87,6 +87,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Recursion
 
+- [Count all sets adding to a target](recursion/count_sets_adding_to_target.ipynb)
 - [Binary Tree Diameter](recursion/bst_diameter.ipynb)
 - [Fibonacci](recursion/fibonacci.py)
 - [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
