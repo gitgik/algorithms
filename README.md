@@ -129,4 +129,4 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Others
 
-- [Word sense disambiguation](other/word_sense_disambiguation.ipynb)
+- [Word sense disambiguation](others/word_sense_disambiguation.ipynb)
