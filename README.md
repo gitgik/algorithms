@@ -126,3 +126,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Tries
 
 - [Trie implementation](tries/trie.ipynb)
+
+## Others
+
+- [Word sense disambiguation](other/word_sense_disambiguation.ipynb)
