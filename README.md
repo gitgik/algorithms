@@ -129,4 +129,5 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Others
 
+- [Kaprekar's constant](others/kaprekar's_constant.ipynb)
 - [Word sense disambiguation](others/word_sense_disambiguation.ipynb)
