@@ -7,6 +7,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Arrays
 
+- [Check Pythogorean triplet in array](arrays/pythogorean_triplet.ipynb)
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
 - [Flip a matrix](arrays/flip_matrix.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
