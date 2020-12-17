@@ -9,6 +9,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Check Pythogorean triplet in array](arrays/pythogorean_triplet.ipynb)
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
+- [Find smallest positive integer](arrays/smallest_positive_integer.ipynb)
 - [Flip a matrix](arrays/flip_matrix.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
 - [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
