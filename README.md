@@ -122,6 +122,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Strings
 
+- [Count invalid parenthesis in string](strings/parenthesis.ipynb)
 - [Caesar cipher](strings/caesar_cipher.py)
 - [String palindrome checker](strings/is_palindrome.py)
 - [Number palindrome checker](strings/number_palindrome.ipynb)
