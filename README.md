@@ -52,6 +52,11 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Serialize and deserialize binary tree](binary-trees/serialize_deserialize_tree.ipynb)
 - [Traverse in-order iteratively](binary-trees/traverse_in_order_iteratively.ipynb)
 
+
+## Bit Manipulation
+
+- [Longest consecutive ones](bit-manipulation/length_of_consecutive_ones.ipynb)
+
 ## Dynamic Programming
 
 - [Count ways to decode](dynamic-programming/count_decodings.ipynb)
