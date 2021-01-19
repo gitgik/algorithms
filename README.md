@@ -15,6 +15,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
 - [Max product of three integers](arrays/max_product_of_three.ipynb)
+- [Max sum of k partitions](arrays/max_sum_k_partitions_minimized.ipynb)
 - [Merge sorted arrays](arrays/merge_sorted_arrays.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
 - [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
