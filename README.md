@@ -85,6 +85,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Heaps
 
+- [Given buildings, model a skyline](heaps/max_heap_skyline.ipynb)
 - [Min heap construction + heap operations](heaps/min_heap.ipynb)
 
 ## Linked Lists
