@@ -28,7 +28,6 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Merge sorted arrays](arrays/merge_sorted_arrays.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
 - [Neighboring products of ith element](arrays/product.ipynb)
-
 - [Smallest difference between two arrays](arrays/smallest_difference.py)
 - [Sparse array](arrays/sparse_array.ipynb)
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
