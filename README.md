@@ -5,31 +5,36 @@
 
 A catalogue of data structures implementation + algorithms and coding problems around them.
 
+## 2D-arrays
+
+- [Search for a word in a board](2D-arrays/board.ipynb)
+- [Flip a matrix](arrays/flip_matrix.ipynb)
+- [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
+- [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
+- [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
+- [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
+- [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
+- [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
+
 ## Arrays
 
 - [Check Pythogorean triplet in array](arrays/pythogorean_triplet.ipynb)
 - [Find first duplicate element](arrays/first_duplicate.ipynb)
 - [Find smallest positive integer](arrays/smallest_positive_integer.ipynb)
-- [Flip a matrix](arrays/flip_matrix.ipynb)
 - [K-sorted lists](arrays/k_sorted_lists.ipynb)
-- [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
 - [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
 - [Max product of three integers](arrays/max_product_of_three.ipynb)
 - [Max sum of k partitions](arrays/max_sum_k_partitions_minimized.ipynb)
 - [Merge sorted arrays](arrays/merge_sorted_arrays.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
-- [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
 - [Neighboring products of ith element](arrays/product.ipynb)
-- [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
-- [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
+
 - [Smallest difference between two arrays](arrays/smallest_difference.py)
 - [Sparse array](arrays/sparse_array.ipynb)
-- [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
 - [Trap water in elevation map](arrays/trapwater.ipynb)
 - [Two sum](arrays/two_sum.ipynb)
 - [Three sum](arrays/zero_threesum.ipynb)
-- [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
 
 ## Binary Search Trees
 
