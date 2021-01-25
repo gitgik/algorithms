@@ -126,6 +126,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Merge sort](sorting/merge_sort.py)
 - [Quick sort](sorting/quicksort.ipynb)
 - [Selection sort](sorting/selection_sort.py)
+- [Sort using a min-heap and k positions](sorting/sort_k.ipynb)
 
 ## Stacks
 
