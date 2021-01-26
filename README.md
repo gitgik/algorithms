@@ -26,6 +26,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Max product of three integers](arrays/max_product_of_three.ipynb)
 - [Max sum of k partitions](arrays/max_sum_k_partitions_minimized.ipynb)
 - [Merge sorted arrays](arrays/merge_sorted_arrays.ipynb)
+- [Merge overlapping intervals](arrays/overlapping_interval.ipynb)
 - [Move element to end of array](arrays/move_element_to_end.py)
 - [Neighboring products of ith element](arrays/product.ipynb)
 - [Smallest difference between two arrays](arrays/smallest_difference.py)
