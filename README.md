@@ -140,7 +140,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [String palindrome checker](strings/is_palindrome.py)
 - [Number palindrome checker](strings/number_palindrome.ipynb)
 - [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
-- [Reverse mutable string](strings/reverse_words.py)
+- [Reverse mutable string](strings/reverse_string_words.ipynb)
+- [Validate IP address](strings/validate_ip_address.ipynb)
 
 ## Tries
 
