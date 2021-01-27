@@ -34,7 +34,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
 - [Trap water in elevation map](arrays/trapwater.ipynb)
 - [Two sum](arrays/two_sum.ipynb)
-- [Three sum](arrays/zero_threesum.ipynb)
+- [Three sum](arrays/zero_threesum.md)
 
 ## Binary Search Trees
 
