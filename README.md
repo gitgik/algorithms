@@ -67,7 +67,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Dynamic Programming
 
 - [Count ways to decode](dynamic-programming/count_decodings.ipynb)
-- [Disk stacking](dynamic-programming/disk_stacking.ipynb)
+- [Disk stacking](dynamic-programming/disk_stacking.html)
 - [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
 - [Knapsack problem](dynamic-programming/knapsack.ipynb)
 - [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
