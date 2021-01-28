@@ -153,4 +153,5 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Job Scheduler](others/job_scheduler.ipynb)
 - [Kaprekar's constant](others/kaprekar's_constant.ipynb)
+- [Regular expression matching](others/regex.ipynb)
 - [Word sense disambiguation](others/word_sense_disambiguation.ipynb)
