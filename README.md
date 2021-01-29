@@ -69,6 +69,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Count ways to decode](dynamic-programming/count_decodings.ipynb)
 - [Disk stacking](dynamic-programming/disk_stacking.html)
+- [Find denominations](dynamic-programming/find_denominations.ipynb)
 - [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
 - [Knapsack problem](dynamic-programming/knapsack.ipynb)
 - [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
@@ -155,4 +156,5 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Job Scheduler](others/job_scheduler.ipynb)
 - [Kaprekar's constant](others/kaprekar's_constant.ipynb)
 - [Regular expression matching](others/regex.ipynb)
+- [Stable marriage problem](others/stable_marriage_problem.ipynb)
 - [Word sense disambiguation](others/word_sense_disambiguation.ipynb)
