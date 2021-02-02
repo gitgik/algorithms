@@ -4,24 +4,18 @@
 class Node():
     """The Node of a singly linked list, together with helper methods."""
 
-    def __init__(self, node_value=None, next_node=None):
+    def __init__(self, value=None, next_node=None):
         """
         When linked list is first initialized, there are no nodes, so head is none.
         """
-        self.node_value = node_value
+        self.value = value
         self.next = next_node  # pointer initially points to nothing
 
     def traverse(self):
         node = self
         while node is not None:
             node = node.next
-
-    def get_next(self):
-        return self.next
-
-    def set_next(self, new_next):
-        self.next = new_next
-
+            
 
 class LinkedList():
     """Singly Linked List with its operations."""
@@ -32,63 +26,53 @@ class LinkedList():
         """
         self.head = head
 
-    def insert(self, data):
-        """
-        Insertion happens at O(1) constant time.
-        The insertion method will always insert a single node, that only ever interacts
-        with the head node.
-        """
-        new_node = Node(node_value=data)
-        new_node.set_next(self.head)   # self.next = self.head
-        self.head = new_node
-        print(f'Head data value is now: {self.head.node_value}')
+    def insert(self, value):
+        """O(1) time"""
+        node = Node(value=value)
+        node.next = self.head
+        self.head = node
 
     def size(self):
-        """The time complexity is O(n):
-        The method will visit the every node in the list but only interact
-        with them once, so n * 1 operations.
-        """
+        """O(n) time"""
         current = self.head
         count = 0
         while current:
-            current = current.get_next()
+            current = current.next
             count += 1
         return count
 
     def search(self, value):
-        """
-        Time complexity for search: O(n) worst case.
-        Worst case, it visits all the nodes while searching for the value, down to the
-        last node (nth node).
-        """
+        """O(n) Worst case, it visits all the nodes."""
         current = self.head
         found = False
         while current and found is False:
-            if current.node_value == value:
+            if current.value == value:
                 found = True
             else:
-                current = current.get_next()
+                current = current.next
         if current is None:
-            raise ValueError(f'Data: {value} not in linked list.')
+            raise ValueError(f'{value} not found.')
         return current
 
-    def delete(self, data):
+    def delete(self, value):
         current = self.head
         previous = None
         found = False
         while current and found is False:
-            if current.node_value == data:
+            if current.value == value:
                 found = True
             else:
                 previous = current
-                current = current.get_next()
+                current = current.next
 
         if previous is None:
-            current = current.get_next()
+            current = current.next
         if current is None:
             raise ValueError('Data not in linked list.')
         else:
-            previous.set_next(current.get_next())
+            # deletion happens here
+            previous.next = current.next
+            
 
 
 if __name__ == '__main__':
