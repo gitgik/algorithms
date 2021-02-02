@@ -71,8 +71,10 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 - [Count ways to decode](dynamic-programming/count_decodings.ipynb)
 - [Disk stacking](dynamic-programming/disk_stacking.html)
+- [Efficient fibonacci](dynamic-programming/fibonacci.ipynb)
 - [Find denominations](dynamic-programming/find_denominations.ipynb)
 - [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
+- [Longest common subsequence](dynamic-programming/longest_common_subsequence.ipynb)
 - [Knapsack problem](dynamic-programming/knapsack.ipynb)
 - [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
 - [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.ipynb)
