@@ -161,4 +161,5 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Kaprekar's constant](others/kaprekar's_constant.ipynb)
 - [Regular expression matching](others/regex.ipynb)
 - [Stable marriage problem](others/stable_marriage_problem.ipynb)
+- [Url on the browser](others/url_browser_explanation.ipynb)
 - [Word sense disambiguation](others/word_sense_disambiguation.ipynb)
