@@ -69,7 +69,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Dynamic Programming
 
-- [Count ways to decode](dynamic-programming/count_decodings.ipynb)
+- [Count ways to decode](dynamic-programming/count_decodings.md)
 - [Disk stacking](dynamic-programming/disk_stacking.ipynb)
 - [Efficient fibonacci](dynamic-programming/fibonacci.ipynb)
 - [Find denominations](dynamic-programming/find_denominations.ipynb)
