@@ -1,3 +1,4 @@
+```python
 """
 Given a binary tree, traverse it, adding the node values into an array,
 returning the array.
@@ -5,8 +6,8 @@ returning the array.
 
 Assume a BST is defined as follows:
 
-* The left subtree of a node contains only nodes with keys less than the node's key.
-* The right subtree of a node contains only nodes with keys >= to the node's key.
+* The left subtree of a node contains only nodes with keys < the node's key.
+* The right subtree of a node contains only nodes with keys > the node's key.
 * Both the left and right subtrees must also be binary search trees.
 """
 
@@ -43,3 +44,10 @@ def post_order_traverse(tree, array):
         post_order_traverse(tree.right, array)
         array.append(tree.value)
     return array
+
+```
+
+
+```python
+
+```

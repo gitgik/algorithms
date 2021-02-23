@@ -1,13 +1,15 @@
-"""Find the smallest difference between two arrays.
-The function should take in two arrays,
-Find the pair of numbers in the array whose absolute difference is closest to zero.
-"""
+## Problem
+Find the smallest difference between two arrays.
+
+The function should take in two arrays and find the pair of numbers in the array whose absolute difference is closest to zero.
 
 
+
+```python
 def smallest_difference(array_one, array_two):
     """
     Complexity:
-        Time: O( nlog(n))  +  mlog(m) )
+        Time: O(nlog(n))  +  mlog(m))
         where n = length of first array, m = length of second array
         (the nlog n comes from sorting using an optimal sorting algorithm)
 
@@ -30,7 +32,7 @@ def smallest_difference(array_one, array_two):
         second_num = array_two[idx_two]
 
         # find absolute difference
-        current_diff = abs(first_num, second_num)
+        current_diff = abs(first_num - second_num)
 
         if first_num < second_num:
             # increment the index of first array
@@ -46,3 +48,24 @@ def smallest_difference(array_one, array_two):
             smallest_pair = [first_num, second_num]
 
     return smallest_pair
+
+```
+
+
+```python
+array1 = [2, 1, 3, 5, 4]
+array2 = [4, 5, 6, 3, 2]
+smallest_difference(array1, array2)
+```
+
+
+
+
+    [2, 2]
+
+
+
+
+```python
+
+```
