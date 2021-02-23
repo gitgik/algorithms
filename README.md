@@ -7,44 +7,44 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## 2D-arrays
 
-- [Search for a word in a board](2D-arrays/board.ipynb)
-- [Flip a matrix](arrays/flip_matrix.ipynb)
-- [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
-- [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
-- [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
-- [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
-- [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
-- [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
+- [Search for a word in a board](2D-arrays/board.md)
+- [Flip a matrix](2D-arrays/flip_matrix.md)
+- [Largest area of 1s in a matrix](2D-arrays/largest_rectangle_matrix.md)
+- [Multi dimensional search](2D-arrays/multi_dimensional_search.md)
+- [Rotate a matrix 90º anti-clockwise](2D-arrays/rotate_90_anticlockwise.md)
+- [Rotate a matrix 90º clockwise](2D-arrays/rotate_90_clockwise.md)
+- [Spiral traverse a two-dimensional array](2D-arrays/spiral_traverse.md)
+- [Zigzag traverse a two-dimensional array](2D-arrays/zigzag_traverse.md)
 
 ## Arrays
 
-- [Check Pythogorean triplet in array](arrays/pythogorean_triplet.ipynb)
-- [Find first duplicate element](arrays/first_duplicate.ipynb)
-- [Find smallest positive integer](arrays/smallest_positive_integer.ipynb)
-- [K-sorted lists](arrays/k_sorted_lists.ipynb)
-- [Longest peak in an array](arrays/longest_peak_in_array.ipynb)
-- [Max product of three integers](arrays/max_product_of_three.ipynb)
-- [Max sum of k partitions](arrays/max_sum_k_partitions_minimized.ipynb)
-- [Merge sorted arrays](arrays/merge_sorted_arrays.ipynb)
-- [Merge overlapping intervals](arrays/overlapping_interval.ipynb)
-- [Move element to end of array](arrays/move_element_to_end.py)
-- [Neighboring products of ith element](arrays/product.ipynb)
-- [Smallest difference between two arrays](arrays/smallest_difference.py)
-- [Sparse array](arrays/sparse_array.ipynb)
-- [Sub-array sort to sort whole array](arrays/sub_array_sort.py)
-- [Trap water in elevation map](arrays/trapwater.ipynb)
-- [Two sum](arrays/two_sum.ipynb)
+- [Check Pythogorean triplet in array](arrays/pythogorean_triplet.md)
+- [Find first duplicate element](arrays/first_duplicate.md)
+- [Find smallest positive integer](arrays/smallest_positive_integer.md)
+- [K-sorted lists](arrays/k_sorted_lists.md)
+- [Longest peak in an array](arrays/longest_peak_in_array.md)
+- [Max product of three integers](arrays/max_product_of_three.md)
+- [Max sum of k partitions](arrays/max_sum_k_partitions_minimized.md)
+- [Merge sorted arrays](arrays/merge_sorted_arrays.md)
+- [Merge overlapping intervals](arrays/overlapping_interval.md)
+- [Move element to end of array](arrays/move_element_to_end.md)
+- [Neighboring products of ith element](arrays/product.md)
+- [Smallest difference between two arrays](arrays/smallest_difference.md)
+- [Sparse array](arrays/sparse_array.md)
+- [Sub-array sort to sort whole array](arrays/sub_array_sort.md)
+- [Trap water in elevation map](arrays/trapwater.md)
+- [Two sum](arrays/two_sum.md)
 - [Three sum](arrays/zero_threesum.md)
 
 ## Binary Search Trees
 
-- [BST with insertion, deletion and removal operations](binary-search-trees/binary_search_tree.py)
-- [BST construction from array](binary-search-trees/bst_construction_from_array.ipynb)
-- [BST validation](binary-search-trees/bst_validation.py)
-- [Find BST node closest to a given value](binary-search-trees/find_closest_value_bst.py)
-- [Find second largest node](binary-search-trees/find_second_largest_node.ipynb)
-- [Remove a node from BST](binary-search-trees/remove_node_from_bst.ipynb)
-- [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.ipynb)
+- [BST with insertion, deletion and removal operations](binary-search-trees/bst_implementation.md)
+- [BST construction from array](binary-search-trees/bst_construction_from_array.md)
+- [BST validation](binary-search-trees/bst_validation.md)
+- [Find BST node closest to a given value](binary-search-trees/find_closest_value_in_bst.md)
+- [Find second largest node](binary-search-trees/find_second_largest_node.md)
+- [Remove a node from BST](binary-search-trees/remove_node_from_bst.md)
+- [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.md)
 
 ## Binary Trees
 
@@ -69,7 +69,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Dynamic Programming
 
-- [Count ways to decode](dynamic-programming/count_decodings.ipynb)
+- [Count ways to decode](dynamic-programming/count_decodings.md)
 - [Disk stacking](dynamic-programming/disk_stacking.ipynb)
 - [Efficient fibonacci](dynamic-programming/fibonacci.ipynb)
 - [Find denominations](dynamic-programming/find_denominations.ipynb)

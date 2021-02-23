@@ -1,5 +1,5 @@
-"""
-Write a function that takes in an array of integers of at least length 2.
+## Problem: Sub-array sort
+
 Find the smallest sub array in the input array that should be sorted in order for the
 entire input array to be sorted.
 The function should return an array of the first index and last index
@@ -9,9 +9,10 @@ If  the whole input array is already sorted, return [-1, -1]
 
 Sample input: [1, 2, 4, 10, 15, 3, 5, 7, 17]
 Sample output: [2, 7]
-"""
 
 
+
+```python
 def sub_array_sort(array):
     """Complexity: O(n) time | O(1) space."""
 
@@ -29,7 +30,7 @@ def sub_array_sort(array):
         return [-1, -1]
 
     min_index = 0
-    max_index = len(array - 1)
+    max_index = len(array) - 1
 
     while min_unsorted_num >= array[min_index]:
         min_index += 1
@@ -48,3 +49,21 @@ def is_out_of_order(i, num, array):
         return num < array[i - 1]
 
     return num > array[i + 1] or num < array[i - 1]
+```
+
+
+```python
+sub_array_sort([1, 2, 4, 10, 15, 3, 5, 7, 17])
+```
+
+
+
+
+    [2, 7]
+
+
+
+
+```python
+
+```

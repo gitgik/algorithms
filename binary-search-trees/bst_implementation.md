@@ -1,15 +1,16 @@
-"""BST implementation.
+## BST implementation
 
 A node is said to be a BST node if and only if it satisfies the BST property:
-    its value is greater than all the node values to its left; its values is less than or
-    equal to the values of every node to its right, and all its children nodes are either
-    BST nodes themselves or null values.
+   - its value is greater than all the node values to its left; 
+   - its values is less than the values of every node to its right, 
+   - and all its children nodes are either BST nodes themselves or null values.
 
-    The BST should support insertion, searching and removal of values.
-    The removal method should only remove the first instance of the target value.
-"""
+> The BST should support insertion, searching and removal of values.
+  The removal method should only remove the first instance of the target value.
 
 
+
+```python
 class BST:
     """
     We'll use the iterative approach (due to constant space).
@@ -22,13 +23,11 @@ class BST:
         self.right = None
 
     def insert(self, value):
-        """Insert a value in the BST.
-
-        Complexity:
-            Average Case: O(log(N)) time | O(1) space
-            Worst Case: (Where the tree is unbalanced and has only one branch to the left)
-                O(n) time, where n is total number of nodes in the tree
-                O(1) space
+        """Average Case: O(log(N)) time | O(1) space
+        Worst Case: (Where the tree is unbalanced 
+        and has only one branch to the left)
+            O(n) time, where n = number of nodes in the tree
+            O(1) space
         """
         current_node = self
         while True:
@@ -48,11 +47,8 @@ class BST:
         return self
 
     def contains(self, value):
-        """Search for a value in the BST.
-
-        Complexity:
-            Average Case: O(log(N)) time |  O(1) space
-            Worst Case: O(n) time | O(1) space
+        """Average Case: O(log(N)) time |  O(1) space
+        Worst Case: O(n) time | O(1) space
         """
         current_node = self
         while current_node is not None:
@@ -66,11 +62,8 @@ class BST:
         return False
 
     def remove(self, value, parent_node=None):
-        """Remove a node from the BST tree.
-
-        Complexity:
-            Average Case: O(log(N)) time | O(1) space
-            Worst Case: O(n) time, O(1) space
+        """Average Case: O(log(N)) time | O(1) space
+        Worst Case: O(n) time, O(1) space
         """
         current_node = self
         while current_node is not None:
@@ -111,16 +104,29 @@ class BST:
         return self
 
     def get_min_value(self):
-        """Helper function to find the smallest value in a sub-tree."""
+        """Finds the smallest value in a sub-tree."""
         current_node = self
         while current_node.left is not None:
             current_node = current_node.left
         return current_node.value
+```
 
 
-# run it
-if __name__ == '__main__':
-    bst = BST(10).insert(5).insert(15).insert(
+```python
+bst = BST(10).insert(5).insert(15).insert(
         7).insert(2).insert(14).insert(22)
-    print(bst)
-    print(bst.remove(10))
+
+bst.contains(22)
+```
+
+
+
+
+    True
+
+
+
+
+```python
+
+```
