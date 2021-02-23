@@ -7,14 +7,14 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## 2D-arrays
 
-- [Search for a word in a board](2D-arrays/board.ipynb)
-- [Flip a matrix](arrays/flip_matrix.ipynb)
-- [Largest area of 1s in a matrix](arrays/largest_rectangle_matrix.ipynb)
-- [Multi dimensional search](arrays/multi_dimensional_search.ipynb)
-- [Rotate a matrix 90º anti-clockwise](arrays/rotate_90_anticlockwise.ipynb)
-- [Rotate a matrix 90º clockwise](arrays/rotate_90_clockwise.ipynb)
-- [Spiral traverse a two-dimensional array](arrays/spiral_traverse.ipynb)
-- [Zigzag traverse a two-dimensional array](arrays/zigzag_traverse.ipynb)
+- [Search for a word in a board](2D-arrays/board.md)
+- [Flip a matrix](2D-arrays/flip_matrix.md)
+- [Largest area of 1s in a matrix](2D-arrays/largest_rectangle_matrix.md)
+- [Multi dimensional search](2D-arrays/multi_dimensional_search.md)
+- [Rotate a matrix 90º anti-clockwise](2D-arrays/rotate_90_anticlockwise.md)
+- [Rotate a matrix 90º clockwise](2D-arrays/rotate_90_clockwise.md)
+- [Spiral traverse a two-dimensional array](2D-arrays/spiral_traverse.md)
+- [Zigzag traverse a two-dimensional array](2D-arrays/zigzag_traverse.md)
 
 ## Arrays
 
@@ -38,13 +38,13 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Binary Search Trees
 
-- [BST with insertion, deletion and removal operations](binary-search-trees/binary_search_tree.py)
-- [BST construction from array](binary-search-trees/bst_construction_from_array.ipynb)
-- [BST validation](binary-search-trees/bst_validation.py)
-- [Find BST node closest to a given value](binary-search-trees/find_closest_value_bst.py)
-- [Find second largest node](binary-search-trees/find_second_largest_node.ipynb)
-- [Remove a node from BST](binary-search-trees/remove_node_from_bst.ipynb)
-- [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.ipynb)
+- [BST with insertion, deletion and removal operations](binary-search-trees/bst_implementation.md)
+- [BST construction from array](binary-search-trees/bst_construction_from_array.md)
+- [BST validation](binary-search-trees/bst_validation.md)
+- [Find BST node closest to a given value](binary-search-trees/find_closest_value_in_bst.md)
+- [Find second largest node](binary-search-trees/find_second_largest_node.md)
+- [Remove a node from BST](binary-search-trees/remove_node_from_bst.md)
+- [Determine whether two arrays can form same BST](binary-search-trees/same_bsts.md)
 
 ## Binary Trees
 
