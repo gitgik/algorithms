@@ -48,19 +48,19 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Binary Trees
 
-- [All paths from root to leaves](binary-trees/root_to_leaves_path.ipynb)
-- [Check whether tree T is subtree of S](binary-trees/compare_subtree.ipynb)
-- [Depth of a tree](binary-trees/depths.ipynb)
-- [Diameter of a tree](binary-trees/diameter.ipynb)
-- [Find successor of a given node](binary-trees/successor.ipynb)
-- [Sum nodes within a given range](binary-trees/binary_range_sum.ipynb)
+- [All paths from root to leaves](binary-trees/root_to_leaves_path.md)
+- [Check whether tree T is subtree of S](binary-trees/compare_subtree.md)
+- [Depth of a tree](binary-trees/depths.md)
+- [Diameter of a tree](binary-trees/diameter.md)
+- [Find successor of a given node](binary-trees/successor.md)
+- [Sum nodes within a given range](binary-trees/binary_range_sum.md)
 - [Invert a binary tree](binary-trees/binary_tree_inversion.py)
-- [Binary tree sum](binary-trees/binary_tree_sum.ipynb)
-- [Flatten a binary tree](binary-trees/flatten_binary_tree.ipynb)
-- [Is binary tree balanced?](binary-trees/is_binary_tree_balanced.ipynb)
-- [Print binary tree nodes level-wise](binary-trees/print_binary_tree_nodes.py)
-- [Serialize and deserialize binary tree](binary-trees/serialize_deserialize_tree.ipynb)
-- [Traverse in-order iteratively](binary-trees/traverse_in_order_iteratively.ipynb)
+- [Binary tree sum](binary-trees/binary_tree_sum.md)
+- [Flatten a binary tree](binary-trees/flatten_binary_tree.md)
+- [Is binary tree balanced?](binary-trees/is_binary_tree_balanced.md)
+- [Print binary tree nodes level-wise](binary-trees/print_tree_nodes.md)
+- [Serialize and deserialize binary tree](binary-trees/serialize_deserialize_tree.md)
+- [Traverse in-order iteratively](binary-trees/traverse_in_order_iteratively.md)
 
 
 ## Bit Manipulation
@@ -70,19 +70,19 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Dynamic Programming
 
 - [Count ways to decode](dynamic-programming/count_decodings.md)
-- [Disk stacking](dynamic-programming/disk_stacking.ipynb)
-- [Efficient fibonacci](dynamic-programming/fibonacci.ipynb)
-- [Find denominations](dynamic-programming/find_denominations.ipynb)
-- [Kadenes algorithm](dynamic-programming/kadenes_algorithm.ipynb)
-- [Longest common subsequence](dynamic-programming/longest_common_subsequence.ipynb)
-- [Knapsack problem](dynamic-programming/knapsack.ipynb)
+- [Disk stacking](dynamic-programming/disk_stacking.md)
+- [Efficient fibonacci](dynamic-programming/fibonacci.md)
+- [Find denominations](dynamic-programming/find_denominations.md)
+- [Kadenes algorithm](dynamic-programming/kadenes_algorithm.md)
+- [Longest common subsequence](dynamic-programming/longest_common_subsequence.md)
+- [Knapsack problem](dynamic-programming/knapsack.md)
 - [Levenshtein dinstance](dynamic-programming/levenshtein_distance.py)
-- [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.ipynb)
-- [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.ipynb)
-- [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.ipynb)
-- [Minimum number of jumps to last index](dynamic-programming/min_jumps_to_end.ipynb)
-- [Throw dice](dynamic-programming/throw_dice.ipynb)
-- [Ways to make change given denominations](no_of_ways_to_make_change.ipynb)
+- [Max sum increasing subsequence](dynamic-programming/max_sum_increasing_subsequence.md)
+- [Max sum of non-adjacent elements in array](dynamic-programming/max_sum_no_adjacent.md)
+- [Minimum number of coins to make change](dynamic-programming/minimum_number_of_coins_for_change.md)
+- [Minimum number of jumps to last index](dynamic-programming/min_jumps_to_end.md)
+- [Throw dice](dynamic-programming/throw_dice.md)
+- [Ways to make change given denominations](no_of_ways_to_make_change.md)
 
 ## Graphs
 
@@ -96,8 +96,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Heaps
 
-- [Given buildings, model a skyline](heaps/max_heap_skyline.ipynb)
-- [Min heap construction + heap operations](heaps/min_heap.ipynb)
+- [Given buildings, model a skyline](heaps/max_heap_skyline.md)
+- [Min heap construction + heap operations](heaps/min_heap.md)
 
 ## Linked Lists
 
