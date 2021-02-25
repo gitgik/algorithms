@@ -101,13 +101,13 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Linked Lists
 
-- [Doubly linked list and all operations](linked-lists/doubly_linked_list.py)
-- [Find whether linked list has loop](linked-lists/find_loop.ipynb)
+- [Doubly linked list and all operations](linked-lists/doubly_linked_list.md)
+- [Find whether linked list has loop](linked-lists/find_loop.md)
 - [Linked list and all operations](linked-lists/linked_list.py)
-- [LRU Cache implementation](linked-lists/least_recently_used_cache.ipynb)
-- [Remove kth node from end](linked-lists/remove_kth_node_from_end.ipynb)
-- [Reverse linked list](linked-lists/reverse_linked_list.ipynb)
-- [Sort linked list in O(N log N) time and constant space](linked-lists/sorting_linked_list.ipynb)
+- [LRU Cache implementation](linked-lists/least_recently_used_cache.md)
+- [Remove kth node from end](linked-lists/remove_kth_node_from_end.md)
+- [Reverse linked list](linked-lists/reverse_linked_list.md)
+- [Sort linked list in O(N log N) time and constant space](linked-lists/sorting_linked_list.md)
 
 ## Recursion
 

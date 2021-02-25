@@ -1,4 +1,3 @@
-
 ## Problem
 Given a linked list, sort it in **O(n log N)** time and **constant** space.
 For example: the linked list 4 -> 1 -> -3 -> 99 should become
@@ -132,11 +131,6 @@ traverse(sorted_list)
     [3, 5, 6, 8, 12, 20, 21]
 
 
-
-
-```python
-
-```
 
 
 ```python
