@@ -94,6 +94,10 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Single cycle check](graphs/single_cycle_check.md)
 - [Youngest common ancestor](graphs/youngest_common_ancestor.md)
 
+## Hashmaps
+
+- [Hashmap implementation](hash-maps/hash_map.md)
+
 ## Heaps
 
 - [Given buildings, model a skyline](heaps/max_heap_skyline.md)
