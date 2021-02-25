@@ -115,15 +115,15 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Recursion
 
-- [Count all sets adding to a target](recursion/count_sets_adding_to_target.ipynb)
-- [Binary Tree Diameter](recursion/bst_diameter.ipynb)
+- [Count all sets adding to a target](recursion/count_sets_adding_to_target.md)
+- [Binary Tree Diameter](recursion/bst_diameter.md)
 - [Fibonacci](recursion/fibonacci.py)
-- [Greatest common divisor](recursion/greatest_common_divisor.ipynb)
-- [Maximum matrix coins](recursion/matrix_maximum_coins.ipynb)
-- [Recursive binary search](recursion/recursive_binary_search.ipynb)
-- [Simulate rocket countdown](recursion/simulate_rocket_countdown.ipynb)
-- [Find min and max in array](recursion/min_max.ipynb)
-- [Tower of Hanoi](recursion/tower_of_hanoi.ipynb)
+- [Greatest common divisor](recursion/greatest_common_divisor.md)
+- [Maximum matrix coins](recursion/matrix_maximum_coins.md)
+- [Recursive binary search](recursion/recursive_binary_search.md)
+- [Simulate rocket countdown](recursion/simulate_rocket_countdown.md)
+- [Find min and max in array](recursion/min_max.md)
+- [Tower of Hanoi](recursion/tower_of_hanoi.md)
   
 ## Searching
 
