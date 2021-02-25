@@ -142,8 +142,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Stacks
 
-- [Interleave elements in a stack](stacks/interleave.ipynb)
-- [Min stack with constant time operations](stacks/min_max_stack.ipynb)
+- [Interleave elements in a stack](stacks/interleave.md)
+- [Min stack with constant time operations](stacks/min_max_stack.md)
 
 ## Strings
 
