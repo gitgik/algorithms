@@ -1,3 +1,4 @@
+```python
 """
 Reverse the words in a string but maintain the relative order of delimiters.
 
@@ -42,3 +43,30 @@ def reverse(string, delimiters):
             pass
 
     return ''.join(output)
+```
+
+
+```python
+reverse("hello:world/here", ":/")
+```
+
+    0
+    adding here
+    1
+    adding world
+    2
+    adding hello
+    3
+
+
+
+
+
+    'here:world/hello'
+
+
+
+
+```python
+
+```

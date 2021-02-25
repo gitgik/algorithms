@@ -133,31 +133,31 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Sorting
 
-- [Bubble sort](sorting/bubble_sort.py)
-- [Insertion sort](sorting/insertion_sort.py)
-- [Merge sort](sorting/mergesort.ipynb)
-- [Quick sort](sorting/quicksort.ipynb)
-- [Selection sort](sorting/selection_sort.py)
-- [Sort using a min-heap and k positions](sorting/sort_k.ipynb)
+- [Bubble sort](sorting/bubble_sort.md)
+- [Insertion sort](sorting/insertion_sort.md)
+- [Merge sort](sorting/mergesort.md)
+- [Quick sort](sorting/quicksort.md)
+- [Selection sort](sorting/selection_sort.md)
+- [Sort using a min-heap and k positions](sorting/sort_k.md)
 
 ## Stacks
 
-- [Interleave elements in a stack](stacks/interleave.ipynb)
-- [Min stack with constant time operations](stacks/min_max_stack.ipynb)
+- [Interleave elements in a stack](stacks/interleave.md)
+- [Min stack with constant time operations](stacks/min_max_stack.md)
 
 ## Strings
 
-- [Count invalid parenthesis in string](strings/parenthesis.ipynb)
-- [Caesar cipher](strings/caesar_cipher.py)
-- [String palindrome checker](strings/is_palindrome.py)
-- [Number palindrome checker](strings/number_palindrome.ipynb)
-- [Reverse words but maintain delimiters order](strings/maintain_delimiter_order.py)
-- [Reverse mutable string](strings/reverse_string_words.ipynb)
-- [Validate IP address](strings/validate_ip_address.ipynb)
+- [Count invalid parenthesis in string](strings/parenthesis.md)
+- [Caesar cipher](strings/caesar_cipher.md)
+- [String palindrome checker](strings/palindrome.md)
+- [Number palindrome checker](strings/number_palindrome.md)
+- [Reverse words but maintain delimiters order](strings/delimiter_order.md)
+- [Reverse mutable string](strings/reverse_string_words.md)
+- [Validate IP address](strings/validate_ip_address.md)
 
 ## Tries
 
-- [Trie implementation](tries/trie.ipynb)
+- [Trie implementation](tries/trie.md)
 
 ## Others
 
