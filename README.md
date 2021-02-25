@@ -157,7 +157,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Tries
 
-- [Trie implementation](tries/trie.ipynb)
+- [Trie implementation](tries/trie.md)
 
 ## Others
 
