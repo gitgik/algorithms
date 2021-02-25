@@ -133,12 +133,12 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Sorting
 
-- [Bubble sort](sorting/bubble_sort.py)
-- [Insertion sort](sorting/insertion_sort.py)
-- [Merge sort](sorting/mergesort.ipynb)
-- [Quick sort](sorting/quicksort.ipynb)
-- [Selection sort](sorting/selection_sort.py)
-- [Sort using a min-heap and k positions](sorting/sort_k.ipynb)
+- [Bubble sort](sorting/bubble_sort.md)
+- [Insertion sort](sorting/insertion_sort.md)
+- [Merge sort](sorting/mergesort.md)
+- [Quick sort](sorting/quicksort.md)
+- [Selection sort](sorting/selection_sort.md)
+- [Sort using a min-heap and k positions](sorting/sort_k.md)
 
 ## Stacks
 
