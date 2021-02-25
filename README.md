@@ -157,6 +157,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Others
 
+- [Hit Counter](others/hit_counter.ipynb)
 - [Job Scheduler](others/job_scheduler.ipynb)
 - [Kaprekar's constant](others/kaprekar's_constant.ipynb)
 - [Regular expression matching](others/regex.ipynb)
