@@ -1,3 +1,4 @@
+```python
 """
 Implementation of bubble sort.
 
@@ -12,7 +13,7 @@ def bubble_sort(array):
 
     Complexity:
         O(1) space
-        O(n2) time
+        O(n^2) time
     """
     is_sorted = False
     counter = 0
@@ -27,3 +28,22 @@ def bubble_sort(array):
 
 def swap(i, j, array):
     array[i], array[j] = array[j], array[i]
+
+```
+
+
+```python
+bubble_sort([8, 5, 2, 9, 5, 6, 3])
+```
+
+
+
+
+    [2, 3, 5, 5, 6, 8, 9]
+
+
+
+
+```python
+
+```

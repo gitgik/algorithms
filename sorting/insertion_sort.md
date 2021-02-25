@@ -1,3 +1,4 @@
+```python
 """Insertion sort implementation."""
 
 
@@ -13,3 +14,22 @@ def insertion_sort(array):
 def swap(i, j, array):
     """Swap elements in an array."""
     array[i], array[j] = array[j], array[i]
+
+```
+
+
+```python
+insertion_sort([12, 1, 3, 2, 7, 4, 0])
+```
+
+
+
+
+    [0, 1, 2, 3, 4, 7, 12]
+
+
+
+
+```python
+
+```

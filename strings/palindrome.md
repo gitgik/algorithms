@@ -1,3 +1,4 @@
+```python
 """"All the ways to implement a palindrom checker.
 
 Check if the string is a palindrome, return True, otherwise, return False.
@@ -45,3 +46,9 @@ def is_palindrome2(string, i = 0):
     """
     j = len(string) - 1 - i
     return True if i >= j else string[i] == string[j] and is_palindrome2(string, i + 1)
+```
+
+
+```python
+
+```

@@ -1,3 +1,4 @@
+```python
 """Merge sort implementation."""
 
 
@@ -44,3 +45,21 @@ def merge(left_array, right_array):
             result += left_array[left_index:]
             break
     return result
+```
+
+
+```python
+merge_sort([5, 3, 2, 6, 1])
+```
+
+
+
+
+    [1, 2, 3, 5, 6]
+
+
+
+
+```python
+
+```

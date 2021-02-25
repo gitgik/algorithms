@@ -1,3 +1,4 @@
+```python
 """Caecar Cipher implementation.
 
 Given a non-empty string of lowercase alphabetic characters, write a function that
@@ -27,3 +28,21 @@ def caesar_cipher_encryptor(string, key):
             new_letters.append(chr(new_letter_code))
 
     return "".join(new_letters)
+```
+
+
+```python
+caesar_cipher_encryptor("xyz", 2)
+```
+
+
+
+
+    'zab'
+
+
+
+
+```python
+
+```

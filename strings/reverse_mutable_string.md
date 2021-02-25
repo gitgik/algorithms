@@ -1,3 +1,4 @@
+```python
 def reverse(array, start, end):
     """Reverse characters in a string from start to end(inclusive)."""
     while start < end:
@@ -35,3 +36,21 @@ def reverse_mutable_string(string_list):
     # remember, there are characters after the white space.
     reverse(string_list, start, len(string_list) - 1)
     return string_list
+```
+
+
+```python
+reverse_mutable_string(['h','e','l','l','o',' ','w','o','r','l','d'])
+```
+
+
+
+
+    ['w', 'o', 'r', 'l', 'd', ' ', 'h', 'e', 'l', 'l', 'o']
+
+
+
+
+```python
+
+```
