@@ -86,13 +86,13 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Graphs
 
-- [Boggle game](graphs/boggle_game.ipynb)
-- [Breadth first search](graphs/breadth_first_search.py)
-- [Breadth first search using double-ended queue](graphs/breadth_first_search_using_deque.ipynb)
-- [Depth first search](graphs/dfs_graph.py)
-- [Longest path of a weighted tree](graphs/longest_path.ipynb)
-- [Single cycle check](graphs/single_cycle_check.ipynb)
-- [Youngest common ancestor](graphs/youngest_common_ancestor.ipynb)
+- [Boggle game](graphs/boggle_game.md)
+- [Breadth first search](graphs/bfs.md)
+- [Breadth first search using double-ended queue](graphs/breadth_first_search_using_deque.md)
+- [Depth first search](graphs/dfs_graph.md)
+- [Longest path of a weighted tree](graphs/longest_path.md)
+- [Single cycle check](graphs/single_cycle_check.md)
+- [Youngest common ancestor](graphs/youngest_common_ancestor.md)
 
 ## Heaps
 
