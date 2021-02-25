@@ -1,3 +1,4 @@
+```python
 class Node:
     def __init__(self, value):
         self.value = value
@@ -6,7 +7,7 @@ class Node:
 
 
 class DoubleLinkedList:
-    def __init__(self, value):
+    def __init__(self):
         self.head = None
         self.tail = None
 
@@ -109,16 +110,37 @@ class DoubleLinkedList:
             node.next.prev = node.prev
         node.prev = None
         node.next = None
+```
 
 
-if __name__ == '__main__':
-    doubly_linked_list = DoubleLinkedList()
-    first_node = Node(1)
-    second_node = Node(2)
-    third_node = Node(3)
+```python
 
-    doubly_linked_list.set_head(first_node)
-    doubly_linked_list.set_tail(third_node)
-    doubly_linked_list.insert_before(third_node, second_node)
-    another_node = Node(7)
-    doubly_linked_list.insert_after(third_node, another_node)
+doubly_linked_list = DoubleLinkedList()
+first_node = Node(1)
+second_node = Node(2)
+third_node = Node(3)
+
+doubly_linked_list.set_head(first_node)
+doubly_linked_list.set_tail(third_node)
+doubly_linked_list.insert_before(third_node, second_node)
+another_node = Node(7)
+doubly_linked_list.insert_after(third_node, another_node)
+
+```
+
+
+```python
+doubly_linked_list.head.value
+```
+
+
+
+
+    1
+
+
+
+
+```python
+
+```
