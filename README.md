@@ -127,9 +127,9 @@ A catalogue of data structures implementation + algorithms and coding problems a
   
 ## Searching
 
-- [Binary search implementation](searching/binary_search.py)
-- [Search for min value using pivot in log time](searching/minvalue_using_pivot.ipynb)
-- [Three largest numbers search](searching/three_largest_numbers.py)
+- [Binary search implementation](searching/binary_search.md)
+- [Search for min value using pivot in log time](searching/minvalue_using_pivot.md)
+- [Three largest numbers search](searching/three_largest_numbers.md)
 
 ## Sorting
 
