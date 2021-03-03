@@ -1,7 +1,7 @@
+```python
 def binary_search(array, target):
     """
-    An iterative implementation of binary search. See recursive approach
-    below.
+    An iterative implementation of binary search. 
     (recursive takes extra space, so solving it iteratively is better -- constant space.)
 
     Returns index of the target if found
@@ -52,3 +52,9 @@ def binary_search_helper(array, target, left, right):
         return binary_search_helper(array, target, left, middle - 1)
     else:
         return binary_search_helper(array, target, middle + 1, right)
+```
+
+
+```python
+
+```
