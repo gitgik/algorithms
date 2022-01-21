@@ -1,7 +1,7 @@
 # Data Structures Implementation
 
 [![Build Status](https://travis-ci.org/gitgik/algorithms.svg?branch=master)](https://travis-ci.org/gitgik/data-structures-implementation)
-[![Code Quality](https://api.codacy.com/project/badge/Grade/0ab2d18dac654883a4d68ab6bc790c5e)](https://www.codacy.com/manual/gitgik/algorithms?utm_source=github.com&utm_medium=referral&utm_content=gitgik/algorithms&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2eb646c9600542918601d2df04f14c06)](https://www.codacy.com/gh/gitgik/algorithms/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gitgik/algorithms&amp;utm_campaign=Badge_Grade)
 
 A catalogue of data structures implementation + algorithms and coding problems around them.
 
