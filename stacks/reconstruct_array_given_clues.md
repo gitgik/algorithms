@@ -1,5 +1,5 @@
 ## Reconstruct array sequence using clues
-The sequence [0, 1, ..., N] is jumbled, and the only clue you hae for its order is an array showing whether each number is larger or smaller than the last. Reconstuct an array that's consitent with this information.
+The sequence [0, 1, ..., N] is jumbled, and the only clue you have for its order is an array showing whether each number is larger or smaller than the last. Reconstuct an array that's consitent with this information.
 
 Example:
     Given [None, +, -, +, +],
