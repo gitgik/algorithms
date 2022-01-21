@@ -4,9 +4,7 @@ The sequence `[0, 1, ..., N]` is jumbled, and the only clue you have for its ord
 Reconstuct an array that's consistent with this information.
 
 Example:
-    Given `[None, +, -, +, +]`,
-    
-    You can return an array that obeys this order, like: `[1, 2, 0, 3, 4]`
+    Given `[None, +, -, +, +]`, return an array that obeys this order, like: `[1, 2, 0, 3, 4]`
 
 ## Solution
 Notice that if the clue array contains only consecutive +ves, we can return original sequence of `[0, 1,..,N]`. Similarly, if it contains only consecutive -ves, we return the sequence reversed (to produce decreasing run of numbers).
