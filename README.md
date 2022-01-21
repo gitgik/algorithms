@@ -65,7 +65,8 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Bit Manipulation
 
-- [Longest consecutive ones](bit-manipulation/length_of_consecutive_ones.ipynb)
+- [Longest consecutive ones](bit-manipulation/length_of_consecutive_ones.md)
+- [Recurring character in a string](bit-manipulation/recurring_characters.md)
 
 ## Dynamic Programming
 
