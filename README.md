@@ -115,6 +115,10 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Reverse linked list](linked-lists/reverse_linked_list.md)
 - [Sort linked list in O(N log N) time and constant space](linked-lists/sorting_linked_list.md)
 
+## Queues
+
+- [Executing the kth prisoner in a circle of prisoners](queues/cyclic_execution_of_kth_prisoner.md)
+
 ## Recursion
 
 - [Count all sets adding to a target](recursion/count_sets_adding_to_target.md)
@@ -154,6 +158,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Count invalid parenthesis in string](strings/parenthesis.md)
 - [Caesar cipher](strings/caesar_cipher.md)
 - [String palindrome checker](strings/palindrome.md)
+- [Check if string A can be shifted to get string B](strings/string_is_shifted.md)
 - [Number palindrome checker](strings/number_palindrome.md)
 - [Reverse words but maintain delimiters order](strings/delimiter_order.md)
 - [Reverse mutable string](strings/reverse_string_words.md)
