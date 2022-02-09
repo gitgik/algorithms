@@ -150,6 +150,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Stacks
 
 - [Interleave elements in a stack](stacks/interleave.md)
+- [Constant time push, pop, max for a stack](stacks/max_stack.md)
 - [Min stack with constant time operations](stacks/min_max_stack.md)
 - [Reconstructing array using clues](stacks/reconstruct_array_given_clues.md)
 
