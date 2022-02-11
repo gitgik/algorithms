@@ -29,6 +29,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Merge overlapping intervals](arrays/overlapping_interval.md)
 - [Move element to end of array](arrays/move_element_to_end.md)
 - [Neighboring products of ith element](arrays/product.md)
+- [Rotate list by k elements](arrays/rotate_list_by_k_elements.md)
 - [Smallest difference between two arrays](arrays/smallest_difference.md)
 - [Sparse array](arrays/sparse_array.md)
 - [Sub-array sort to sort whole array](arrays/sub_array_sort.md)
