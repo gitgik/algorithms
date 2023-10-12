@@ -36,6 +36,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 - [Trap water in elevation map](arrays/trapwater.md)
 - [Two sum](arrays/two_sum.md)
 - [Three sum](arrays/zero_threesum.md)
+- [Three product](arrays/three_product.md)
 
 ## Binary Search Trees
 
