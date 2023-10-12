@@ -2,7 +2,7 @@ Given a list of integers, return the largest product of three of the integers. Y
 
 For example, if the list is [-5, -10, -10, 5, 2, 3], we should return 500, since that's -10 * -10 * 5.
 
-## First approach
+### First approach
 We will need to account for negative numbers in the array. 
 
 If the largest product that can be made includes a negative number, we need to have two so as to cancel out the negatives. 
@@ -39,7 +39,7 @@ product(array)
 
 This runs in O(N log N) time since we have to sort the input array.
 
-## second approach without sorting.
+### Second approach without sorting
 We can find an O(N) solution by manually looking for the largest elements in the array.
 
 
