@@ -174,6 +174,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Others
 
+- [Fisher-Yates Shuffle](others/card-shuffle.ipynb)
 - [Hit Counter](others/hit_counter.md)
 - [Job Scheduler](others/job_scheduler.md)
 - [Kaprekar's constant](others/kaprekar's_constant.md)
