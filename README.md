@@ -152,7 +152,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 
 ## Stacks
 
-- [Is a string of brackets balanced?](stacks/is-balanced.ipynb)
+- [Is a string of brackets balanced?](stacks/is-brackets-balanced.md)
 - [Interleave elements in a stack](stacks/interleave.md)
 - [Constant time push, pop, max for a stack](stacks/max_stack.md)
 - [Min stack with constant time operations](stacks/min_max_stack.md)
