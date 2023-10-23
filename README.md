@@ -101,6 +101,7 @@ A catalogue of data structures implementation + algorithms and coding problems a
 ## Hashmaps
 
 - [Hashmap implementation](hash-maps/hash_map.md)
+- [First non-repeating character](hash-maps/first-non-repeating-char.ipynb)
 
 ## Heaps
 
