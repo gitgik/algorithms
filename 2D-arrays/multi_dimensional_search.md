@@ -3,7 +3,9 @@ Given a multi-dimensional array consisting of either integers, floats, strings o
 
 
 ```python
-def find_numbers(A, results):
+from typing import List
+
+def find_numbers(A , results) -> List:
     """Complexity analysis
         O(N ^ m) time | O(n) space, where N is the total number of elements in the outer array A, and m is the number of the highest dimensions in the array.
     """

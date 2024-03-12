@@ -30,7 +30,15 @@ Since we can exit the search once we reach the end of the word, the recursive de
 
 
 ```python
-def search(board, row, col, word, index, visited):
+from typing import List, Set, Tuple
+
+def search(
+    board: List[List[str]],
+    row: int,
+    col: int,
+    word: str,
+    index: int,
+    visited: Set[Tuple[int, int]) -> bool:
     def is_valid(board, row, col):
         return row >= 0 and row < len(board) and col >= 0 and col < len(board[0])
     
@@ -97,7 +105,7 @@ find_word(board, 'SEE')
     searching at (2, 3)
     Adding (2, 3) into set
     searching at (2, 2)
-
+    
 
 
 
@@ -123,12 +131,43 @@ find_word(board, 'AWORD')
     searching at (1, 0)
     searching at (3, 0)
     removing (2, 0) from set
-
+    
 
 
 
 
     False
+
+
+
+
+```python
+find_word(board, "SADE")
+```
+
+    Adding (1, 0) into set
+    searching at (1, -1)
+    searching at (1, 1)
+    searching at (0, 0)
+    Adding (0, 0) into set
+    searching at (0, -1)
+    searching at (0, 1)
+    searching at (-1, 0)
+    searching at (1, 0)
+    removing (0, 0) from set
+    searching at (2, 0)
+    Adding (2, 0) into set
+    searching at (2, -1)
+    searching at (2, 1)
+    Adding (2, 1) into set
+    searching at (2, 0)
+    searching at (2, 2)
+    
+
+
+
+
+    True
 
 
 

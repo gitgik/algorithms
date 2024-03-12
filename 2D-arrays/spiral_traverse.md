@@ -19,8 +19,9 @@ The function should return
 
 
 ```python
+from typing import List
 
-def spiral_traverse(A):
+def spiral_traverse(A: List[List[int]]) -> List:
     """Complexity analysis:
         O(n) time, O(n) space, where n is the total number of elements in the 2-dimensional array
     """
@@ -79,7 +80,7 @@ spiral_traverse(A)
 
 
 ```python
-def spiral_traversal(array):
+def spiral_traversal(array: List[List[int]]) -> List:
     """Complexity analysis:
         O(n) time, O(n) space, where n is the total number of elements in the array.
     """
