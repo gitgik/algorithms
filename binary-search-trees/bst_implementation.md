@@ -17,12 +17,12 @@ class BST:
     Recursive approach creates a call stack in memory -> O(n) space.
     """
 
-    def __init__(self, value):
+    def __init__(self, value: int):
         self.value = value
         self.left = None
         self.right = None
 
-    def insert(self, value):
+    def insert(self, value: int):
         """Average Case: O(log(N)) time | O(1) space
         Worst Case: (Where the tree is unbalanced 
         and has only one branch to the left)
