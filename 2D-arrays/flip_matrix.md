@@ -25,11 +25,13 @@ Return
 
 
 ```python
-def flip_matrix(matrix):
-    n, m = len(matrix), len(matrix[0]) 
-    for i in range(n):
-        for j in range(m // 2):
-            matrix[i][j], matrix[i][m - 1 - j] = matrix[i][m - 1 - j], matrix[i][j]
+from typing import List
+
+def flip_matrix(matrix: List[List[int]]):
+    rows, cols = len(matrix), len(matrix[0]) 
+    for i in range(rows):
+        for j in range(cols // 2):
+            matrix[i][j], matrix[i][cols - 1 - j] = matrix[i][cols - 1 - j], matrix[i][j]
     return matrix
 
 matrix = [
@@ -48,3 +50,8 @@ flip_matrix(matrix)
     [[4, 3, 2, 1], [8, 7, 6, 5], [12, 11, 10, 9], [16, 15, 14, 13]]
 
 
+
+
+```python
+
+```

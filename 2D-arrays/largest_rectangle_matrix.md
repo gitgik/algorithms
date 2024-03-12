@@ -18,7 +18,9 @@ Return 6
 
 
 ```python
-def largest_rectangle(matrix):
+from typing import List
+
+def largest_rectangle(matrix: List[List[int]]) -> int:
     """O(M^3 * N^3) time | O(1) space"""
     
     max_so_far = 0
@@ -47,7 +49,7 @@ def is_valid(matrix, top_left_row, top_left_col, bottom_right_row, bottom_right_
         for j in range(top_left_col, bottom_right_col):
             if matrix[i][j] == 0:
                 return False
-    return True                    
+    return True
 ```
 
 
